@@ -1,0 +1,928 @@
+OK waktu add new item di MR,field baru dibapus
+OK munculkan kode item pada saat penggabungan MR ke PO
+OK pilihan supplier dihilangkan di penggabungan MR ke PO
+OK pilihan branch di PO dihilangkan / tdk relevan
+OK urut data supplier di edit po
+OK background dikeciling file nya
+OK image diagram dan Menu: NPB -> MR
+OK add new item invoice utk gs dimatikan
+OK branch di PO/purchase dihilangkan
+OK branch di item MR-PO-Invoice-Purchase berubah ?
+OK format nomor dokumen MR per cabang
+  - alter table npbs alter column no no varchar(20);
+OK PPN di PO harus dipancing baru muncul
+OK List asset untuk cabang
+  - add menu group cabang: list asset, labelling, phisycal check
+  - add menu group pim cabang: list asset
+OK WIL Print PO masih terpisah utk item yg sama
+OK WIL penamaan file PDF sesuai dengan nomor PO
+OK WIL kolom print PO terlalu jauh dengan label nya 
+OK WIL kolom print PO: kategory asset ganti jadi Kode barang  
+OK WIL tombol cancel di approve PO level 2: cancel => status back to level 1
+OK WIL tombol edit asset detail dihidden: di view Asset => Related Asset Detail
+OK WIL hanya edit SN yg muncul, tambah info nama/kode barang
+OK WIL id di tabel asset jadi $i
+OK WIL pilihan supplier, pop up menu atau lookup
+OK WIL jika diprint dua kali ada tanda bintang (reprint) dekat nomor
+    Po.printed (int default 0): view_pdf => printed = printed+1
+	View PO: Reprint: printed
+	if printed > 1 : tambah tanda bintang (reprint) dekat nomor
+	PO-0002 ***
+OK WIL count notifikasi belum filter by department_id
+OK list movement asset panggil by kode atau nama, 
+OK WIL munculkan serial no
+OK proses movement cek lagi, blm muncul asset di cab tujuan
+  - induk asset blm muncul, asset detail sebetulnya sudah
+OK order 2, receive 1, receive 1, sisa di PO detail masih menggantung ??
+OK WIL Print PO, munculkan nama item jika ada item_id
+OK WIL tanda bintang di view kelebihan?
+OK WIL notifikasi: Department=> Branch:
+OK YUD report MR outstanding/finish, cek v_is_done
+OK YUD Inventory Stock Report
+	td class=number
+OK barang sudah datang invoice blm datang ?? inovice temp
+OK MR Qty Filled -> Check stock -> Outlog,
+	qty yang dioutlog saat ini adalah qty sisa = qty requested - qty filled
+OK Tambah filter is done di list po / npb /invoice
+	Yes/No/All
+OK YUD /pos/po_report/outstanding
+	tambah kolom PoDetail.qty_received
+	kolom bhs indo => english
+	create link PO di nomor PO
+OK YUD /npbs/npb_report/outstanding
+	tambah kolom NpbDetail.qty_filled
+	kolom bhs indo => english
+	create link MR d
+	i nomor MR
+OK FA Register Report filter, disamakan kaya Invoce
+OK WIL report inventory ledger: baris ending balance, 
+	tambah beginning balance
+OK WIL perhitungan saldo di movement report masih salah (out --)
+OK WIL Inventory Movement Report
+	cek beginning balance
+
+OK waktu edit PO, amount item dari MR tidak hilang
+	
+
+OK-WIL Find asset
+	-menu tambah di Fixed Asset (kosong)
+	-udah dibuatin untuk find asset, please cek...
+
+YUD Supplier History: suppliers/history
+	"daftar pembelian ke supplier"
+	- Filters: pilih supplier, date_start, date_end
+	- find dari po where supplier_id=supplier and "is_done=1" (sub select details)
+	- output:
+	no PO, tanggal_po, tanggal delivery, tanggal_finish, selisih  finish - delivery
+	
+YUD Warranty History: drop dari menu
+	- buat update sql nya
+	
+OK-WIL input price di mr atau di po ?
+	-add nbp detail>>> price, price_cur, amount, amount_cur, currency_id, rp_rate, descr, discount, discount_cur, amount_net, amount_net_cur, date_finish---belum kesave
+OK-WIL npb.note di view mr belum ada
+	- tambah utk cancel branchhead -> cabang
+OK-WIL npb/po view cancel / reject MR auto date
+	- tambah cancel date / reject date di view
+OK-WIL PO view cancel / reject po auto date
+OK-WIL ADD/EDIT DO, auto date
+OK-WIL Invoice view: ada tulisan Invoice Item Details
+
+YUD FA Labelling
+	$- tambah filter: kode OR nama, 
+	$- sebelum Refresh jgn muncul daftar assetnya
+	- tombol cetak barcode: list_pdf with barcode(kode)
+	- form khusus utk submit ke view_barcode, supaya hanya asset yg diclick yg terprint
+
+YUD FA Physical Check
+	$- tambah filter: kode OR nama, 
+	$- sebelum Refresh jgn muncul daftar assetnya
+	$- tombol "Print Fixed Asset List"
+	- ada kolom kosong "Checked"
+	- ada tombol "Update Physical Check", save ke db.check_physical (0,1)
+	- form khusus utk submit ke physical, supaya hanya asset yg diclick yg terprint/ updated
+	
+OK YUD list details items: kl npb_id==0 => tdk perlu dipanggil $npbs[$npb_id] 
+	dan yg lain2 
+
+OK YUD Journal: include ppn 10% ketika receival posting
+	journal_transactions:
+		-invoice: sub_total => total
+		-mutasi
+		-dispoal
+		-...
+
+OK YUD Related Journal Templates: name nya dikeluarkan
+OK YUD Lengkapi data Journal Template
+YUD ioncube : encrypt source PHP
+
+FA history
+	- view data asset
+	- tanggal purchase, mr/po/invoice/purchase no terkait
+	- maintenance
+	- disposals
+FA Maintenance
+	- document pengeluaran asset for maintenance
+	- pilih / cari asset_details
+	- set status asset_detail : diluar = y, date_out = now()
+	- document pengembalian asset dari maintenance
+	- set status asset_detail : diluar = n, date_in = now()
+
+WIL Install di famsys.vitraining.com/famsys
+OK WIL PO Status readonly, di edit PO.
+
+WIL submenu2 harus mengikuti permission:
+- tabel groups_menus : gruops, menus (HABTM)
+- my_menu componennt
+- my_menu view helpers
+- menu.php model
+
+
+
+meeting 11 May 2011
+-------------------
+
+WIL {
+OK MR Qty Filled waktu request hidden
+OK MR new qty / description blank
+OK MR Notes alasan nya belum muncul waktu view
+OK MR AJAX timeout ?? cek di server
+OK MR Kalau sudah reject, tombol Send hilang
+
+OK {MR Rute:
+	ok =>$General: Cabang -> GS Admin yg menentukan Movement atau Procurement
+		OK $- tambah Group baru: GS Admin ==> bootrap constant gs_admin_group_id
+		OK $- rename group baru: GS Procurement (GS Members) ==> gs_group_id
+		OK $- group baru FA management ==> fa_management_group_id
+		OK $- add new status_npb : sent_to_fa_management_id atau sent_to_gs_id
+	OK =>$IT: Cabang -> IT Admin yg menentukan Movement atau New MR (set approval MR)
+		OK $- tambah Group baru: IT Admin ==> bootrap constant it_admin_group_id
+		OK $- group baru IT management ==> it_management_group_id
+		OK $- add new status_npb : sent_to_it_management_id atau sent_to_gs_id
+	Di index npb:
+		OK $- berdasarkan group_id user yg login: gs_admin_group_id or it_admin_group_od
+		OK $- tambahkan filter reguest_type_id di npbs
+		OK $- gs_admin_group_id => npbs.request_type_id == FA general items / Stock Items / Services general items
+		OK $- it_admin_group_od => npbs.request_type_id == FA IT items / Services it items
+OK MR Khusus untuk IT: 
+OK - udah update price =>, tombol print, tombol movement, tombol aprove it
+OK - ada proses untuk mendapat status approval IT Manager
+OK - bisa mengisi harga estimasi, bisa diedit oleh IT Admin
+OK - tambah 1 status npb_statuses
+OK - isi price list npb, print/email, attach dokumen => 1. status_it_approved
+OK - 2. sent_to_gs_id
+OK - MR tombol Send ke GS utk proses PO 
+}
+
+OK WIL MR attachment
+	OK - pdf, doc, jpg
+OK WIL MR Notifikasi Reject (plus tombol Archive)
+	OK status_npb_id=>archive
+OK WIL MR Request type: tambah type services
+	$npb index: or request_type_id== service
+OK WIL Group_Name (gs_admin, it_admin, fa_management, it_management, stock_management)
+OK WIL menu (list MR, out standing, finish)
+	OK group stock management: add semua menu Stock
+OK WIL create movement gs hilang, adanya di fa management
+OK WIL qty di it admin statik
+OK WIL label aprove to it manager, change jadi "approved by manager"
+	OK status: status_npb_it_manager_approved_id (bisa disent ke GS)
+OK WIL tabel baru untuk atachment file
+OK WIL PO Print sesuaikan dengan Email
+	OK list($code,$item)=explode('-',$poDetail['name']);
+OK WIL PRINT po/npb, download
+OK WIL MR notifikasi: difilter per Request Type / Group yg login
+
+OK WIL field untuk stock management, field is_phurchase_request=>stock request, stock phurchase request, bool(0,1)
+	OK field ini muncul hanya jika login group stock_management
+	OK alur sesuai flow chart
+OK WIL attachment(group cabang & it admin)
+OK WIL PO PDF terbilang koma-koma
+TAMBAHAN :OK kalo sudah approve, tombol approve hilang, hanya bisa satu kali approve
+		: delete attachment, file di folder belum hilang
+		: OK Created By, input masuk 10 karakter
+}
+
+OK YUD PDF / XLS export semua report
+OK MR List: 
+OK kolom Is Done, Created By salah content, 
+OK image dikecilin 
+OK MR Finish
+OK MR Outstanding
+	-download
+
+OK PO List
+- PO Finish 
+- PO Outstanding
+
+OK Invoice List	
+OK masih inline pdf
+OK Invoice Finish
+OK Invoice Outstanding
+OK kolom branch dihilangkan (view html juga)
+	
+OK Asset List
+	kolom Unit Cost,price => Unit Cost
+OK kolom Book Value 31/12/???? blm ada tahun
+
+OK FA Transfer List
+OK Disposals Write Off List
+OK Disposals Sales List
+- Asset Details Labelling
+OK Asset Details Physical Check List
+	- kolom kosong utk check
+
+OK Stock Inlog List
+OK Stock Outlog List
+OK Stock Ledger List
+	qty, Price,amount format
+	Beginning Balance : beginning
+	Ending Balance : ending
+OK FA monthly depreciation report
+OK FA monthly detail depreciation report
+	rapikan lagi--check
+	filter asset category type--check
+OK FA detail report
+	filter asset category type id--check 
+	label is under value di pdf--check
+OK FA register report
+	filter asset category type id--check
+	layout filter posisi di dalam filter--check
+	baris tabel dibuat 1 baris max: substring atau no-wrap--check
+OK FA transfer report
+	baris tabel dibuat 1 baris max: substring atau no-wrap	
+OK Fixed Asset Depreciation Recap Report 
+	tambah filter sesuai dengan FA List--check
+OK Fixed Asset Monthly Depreciation Recap Report 
+	tambah filter sesuai dengan FA List--check
+	landscape--check
+	filename pdf output--check
+OK FA Movement Reports
+	filter type asset category--check
+	pdf landscape--check
+	1 tabel 1 halaman jika perlu--check
+
+OK STOCK Retur Barang: cabang-head, 
+	- journal retur cabang-head
+OK STOCK Retur head-supplier
+	- journal return head-supplier
+OK STOCK pengeluaran barang di cabang, 
+	- journal persediaan-biaya
+OK STOCK MR untuk pembelian stock
+OK STOCK permintaan siapa yg duluan diproses, apakah ada booking item
+OK	- sort by date in
+OK STOCK surat jalan
+
+OK PO total nol 
+OK PO dalam USD, waktu ke invoice belum convert ke RP
+OK PO approval budget blm dikonvert ke Rp
+OK PO discount, terima parsial, discount di invoice blm terbagi qty
+OK PO delete / detail NPB tidak update, qty_filled
+
+OK Register Asset dari DO: currency harus dalam rupiah
+
+OK Notifikasi MR Draft user cabang
+
+FA management menu Fixed asset lengkap: 
+	FIXED ASSET dan REPORT -> Fixed Asset
+
+OK YUD Export to XLS semua report
+OK YUD lengkapi data accounts di journal template
+	list journal groups - journal template dlm xls
+
+OK Stock Evaluasi
+OK - average price: avg_price
+OK level autorisasi
+OK    operator cabang
+OK    supervisor cabang 
+OK sort daftar ledger stock per date time
+
+Meeting Rabobank 2011-05-18
+------------------------------------------------------------------------------------------
+OK -YUD 1. cek filter di journal template, untuk jornal group all 
+	=> all dhilangkan
+	
+OK 2. cek add invoice/view, add invoice item detail, ajax dan discount belum ke save
+	=> cek fungsu calcAmount()
+
+OK WIL 3. label nama stock purchase>purchase new stok/phurcase di add mr grup stock manajemen
+	$=> label "stock purchase request" dan "stock request"
+	
+4. nama-nama cabang dan branch datanya disesuaikan
+	=> minta data
+	
+OK di add item detail, jika tidak ada barangnya/tidak sesuai dengan list barang yang 
+	ada itu tidak bia di add
+	=> keluarkan warning jika barang tidak ada; add_ajax()
+	=> pop up warningnya di ganti, jika salah input, dibuat lebih informatif
+	=> selesai addDetailNpb(): item_id dikosongkan lagi
+	
+OK WIL 7. label sent to fa management dan sent to gs
+	$=>"fa movement" dan "fa procurment"
+	
+OK di npbs view untuk item detail->type IT
+	=> waktu add po dari npbs, jika po type IT, maka hanya muncul mR it, dan sebaliknya
+	=> add po: split 2 page:
+		page 1: pilih "Request Type" dan "Currency"
+		page 2: add po yg sekarang, request_type_id dan currency_id sudah fixed, 
+		        munculkan MR detail sesuai dengan request_type_id dan currency_id
+	=> mr 5 detil, pilih cuma 3, yang 2 qty_filled terupdate jadi qty
+	=> add_detail_from_mr()
+OK WIL 11. ada page baru untuk pilihan PO
+	a. untuk IT
+	b. non IT
+	=> idem 8	
+	
+OK WIL 9. currency name, jangan melekat dibarang
+	=> add currency_id di npd_details. default 1
+	=> idem 8
+	
+OK YUD 10. list mr untuk IT admin, type general item ada yang ke view
+	=> cek filter index
+	
+
+OK 12. proses recalculate barang ketika sudah diedit, otomoatis recal
+	=> ajax ???
+	
+OK WIL 13. ketka create PO : add npb detail 
+	ex :
+	item a, item b, item c, jika di create PO a dan b, status c ?
+	=> idem 8
+	
+OK-YUD 14. label 'supplier' di vew=> 'supplier data management'
+	cek urutannya juga...
+	
+OK-YUD 15. option untuk .paid_bank_account_type.
+	a. transfer
+	b. over booking
+	
+OK-YUD 16. $this->Session->setFlash
+	a. sukses => green colour
+	b. no sikses => red colour
+	=> flag utk session flash: ok or failed
+	
+OK-YUD 17. list untuk gs_group_id
+	tambah invoce =>status draft, status unpaid, status paid
+	
+OK YUD 18. fincon_group_id=>complite journal template data :
+	a. general item
+	b. IT item
+	
+$-YUD 19. colour bakground software famsys disesuaikan dengan dominan colour rabobank
+	a. ada logo baru unuk logo rabobank
+	b. main menu:
+		- background orange != black
+		- label biru != white
+	c. background colour sesuaikan
+	
+OK 20. a. journal template untuk IT item, status wait dari rabobank
+	b. journal template untuk general item, status tinggal cek di databse
+	
+YUD (PENDING) 21. GL=>convert TXT file
+
+OK-YUD 22. excel report
+
+OK 23. cek filter report invoice outstanding dan finish, terbalik
+	invoice finish = status done bukan register asset
+	colom bank account name abil dari tabel invoices
+
+PENDING 24. title page : munculin per modul
+	ex :
+	- modul procurment
+	- modul stock inventory
+	- dll....
+
+OK 25. cek label Shipping Address => Shipping Adderss
+
+OK-YUD 26. label main menu jangan disingkat
+	- MR=>Memo Request
+	 npb-> mr huruf besar di flash message
+	- PO=>Purchase Order
+	
+OK 27. Approval untuk stock inventory ?
+	cabang: spt sekarang
+		mr: ok
+		usage: operator - supervisor - proses
+		retur: operator - supervisor - proses
+	pusat/ stock
+		
+OK 28. GL ada 2 type :
+	- FA
+	- Stock
+	
+OK WIL 29. Notifikasi untuk stock management dan list stock, status sudah finish, masih ada
+	status sudah finish tidak boleh check stock lagi=>tombol check stock
+	- tambah status done/processed
+	- tambahan wildan : untuk grup stock
+		>notifikasi function count_by_status ditambah , '(SELECT if(sum(qty-qty_filled)=0,1,0)  FROM npb_details WHERE npb_details.npb_id = Npb.id) = 0'
+		>cange status ketika create outlog jadi status_npb_stok_manager_processed_id(Processed by Stock Manager)
+	
+OK WIL 30. cek print PO pdf :
+	- kalo ada 2 pemberi order, jadi 2 sign ?
+		tambah 2 field di PO type text
+			* signer 1
+			* signer 2
+	- tambah alamat PO/footer ambil dari configs
+	- cek say ammount
+	- english language
+/**********************************************************
+
+OK Stock Management==operator
+OK Stock Supervisor (add new group)
+OK - mr cabang - checkstock - outlog - sent to supervisor - approve (process, status change to processed)
+OK - mr purchase - sent to supervisor - approve (sent to gs)
+***********************************************************
+Report Meeting dengan Rabobank Tanggal 20-052011
+1.	(PENDING)Ada fasilitas cancel dan reject untuk group IT Admin
+	- MR IT (it_admin) ke IT (it_supervisor) 
+OK	Currency jangan melekat di items, setiap add item detail, ada option untuk cange currency
+	- MR IT
+OK-WIL 3.	Untuk group IT Admin ketika print MR, ada Notes nya
+	- field baru
+OK Ada kolom kosong untuk tanda tangan, head of IT/Directur
+	-	MR IT
+OK	Label approve by IT Manager diganti jadi "Approve By IT" di dekat NPB print, group IT Admin
+6.	Ada nama modul di bawah label group atau logout
+7.	Alur untuk movement asset, baik untuk IT maunpun General, diperjelas
+	-	untuk movement IT belum
+OK	Movement, Label source departmen=>origin departmen, destination departmen=> destination departmen
+	-	replace di locale : department->branch
+OK YUD 9.	Di add FA transfer :
+	-	Option origin (branch=department) + unit(=locations) ada 3 dropdown
+OK YUD 10.	Susunan tabel di prapare posting :
+	-	Date->account_code->account_name
+11.	(PENDING)Cost center, ada di movement barang dan register
+	minta detail konsep cost center dulu
+12.	Jurnal interface tidak memakai file txt, tapi via tabel
+13.	(pending)Unutk cost center, ada 2:
+	-	movement barang
+	-	register asset
+	-	harus ada database cost center
+YUD 14.	di register asset, harus ada location/destination asset, cabangnya apa?
+YUD 15.	Setelah melengkapi data FA, branch=department, unit harus terlihat
+	tambah field di tabel users-mr- po detail- do detail-asset-asset detail : deparment_sub_id dan deparment_unit_id di FA register
+	edit controller purchase add sehingga pada insert asset feild tersebut terisi
+	edit controoler PO fungsi add_selected_detail_from_npb
+	edit controller movement tambah filter deparment_sub_id dan deparment_unit_id
+	
+Hal-hal yang paling urgen di meeting :
+	-	Masalah cost center/cost departmenent
+	-	Masalah GL interface via tabel
+	-	Program famsys harus siap pakai
+	-	Hari rabu 25-05-2011 bertemu dengan orang2 fincon, dll
+	-	Bertempat di jalan abdul muis
+---------------------------------------- 
+
+meeting dengan rabobank tgl 25 may 2011
+---------------------------------------
+YUD 1. (PENDING)ada converter data asli, untuk master data rabobank
+	- read xls, insert into table assets and asset_details
+OK-WIL 2. Add MR Detail :
+	OK- input MR detail lebih dari 5, action delete nambah <td> satu kolom
+	OK- kalo barang IT yang bisa di add, hanya barang IT, dan sebaliknya
+	OK- baik kodenya maupun namenya
+	OK- qty tambah unit
+WIL 3. Kode MR-016-11-0003, dalam satu tahun nol lagi
+	-No mr pake garis miring bukan (-)
+OK WIL 4. tombol FA Movement, di gs admin
+	- alur movement (GS & IT)
+	- cara update MR Detail->qt-filled
+OK 5. recalculate
+6. (pending) label is done->status
+	- outstanding->image
+	- finish->image
+OK WIL 7. print po 
+	- label di po nomor->po number
+	- tabel row di atas signer dihilangkan
+8. (pending) Approve level 3/direksi, bisa attach file & print po
+OK-YUD 9. di DO view :
+	- kalo item ada 5, di DO 3, yang 2 dimunculkan
+10. (pending) add movement
+	- Branch, department, unit->spesifikan
+YUD 11. report Fa
+	- tambah field sub_department_id & unit_id
+OK WIL 12. group IT Admin
+	- filter status archive muncul
+	OK - notesnya bisa di edit, diprint ke pdf
+13. Pembayaran Termin :
+	- DO 50
+		1. bayar DP
+		2. bayar 25
+		3. lunas
+	- untuk pembayaran termin: 
+	  * dimulai dari invoice: ada field termin
+	  * misaln : 30%, 30, 40
+	  * pada saat payment I: 30% (outstanding) 
+			D: uang muka
+			C: supplier
+	  * payment II : 30% (outstanding)
+			D: uang muka
+			C: supplier		
+	  * payment III: 40 (finish)
+			D: FA
+			C: uang muka
+			C: supplier
+	  * FA diakui pada saat pelunasan
+  
+OK-YUD 14. purchase/report/fa, filter item
+	- filter belum jalan
+15. (pending)title menu samakan denga di buku
+$-YUD 16. id requester, di ganti sama branch->otomatis
+	- hapus id_requester di add purchase
+OK-YUD 17. Register asset, ambil dari quantity receive DO, cek
+$-YUD 18. Resgister asset ada total barang dan total uang..
+	----total barang gmana
+	--- semua reports
+	---semua footer reports ambil di config
+	19. update nbp detail pada saat edit qty di po detail
+20. Transaksi Ledger Retur dari cabang masih salah
+Notes :
+Test presentasi famsys oleh developer, print sekenario
+planning meeting jumat 3 juni 2011
+---------------------------------------
+
+MR stock inventory user stock_supervisor: tambah cancel / reject 
+YUD FA  
+    $- tambah filter: kode OR nama,
+    $- sebelum Refresh jgn muncul daftar assetnya
+    - tombol cetak barcode: list_pdf with barcode(kode)
+    - form khusus utk submit ke view_barcode, supaya hanya asset yg
+diclick yg terprint
+
+YUD FA Physical Check
+    $- tambah filter: kode OR nama,
+    $- sebelum Refresh jgn muncul daftar assetnya
+    $- tombol "Print Fixed Asset List"
+    - ada kolom kosong "Checked"
+    - ada tombol "Update Physical Check", save ke db.check_physical (0,1)
+    - form khusus utk submit ke physical, supaya hanya asset yg diclick
+yg terprint/ updated
+
+-------------------------------------------------------------
+terima barang sekaligus:
+	Db: Perolehan FA
+	Cr: Hutan g pada supplier
+
+register invoice:
+	no jurnal
+	
+bayar invoice :
+	terms:
+		Db: Uang muka
+		Cr: cash bank
+	terms:
+		Db: Uang muka
+		Cr: cash bank
+	pelunasan:
+		Db: Perolehan FA
+		Cr: uang muka
+		Cr: Hutang Supplier
+	
+	fullpayment:
+		Db: Hutang pada supplier
+		Cr: Rab process umum
+---------------------------------------------------------------
+---------------------------------------------------------------
+meeting dengan Rabobank Tgl 7 juni 2011
+OK YUD ada halaman di pdf
+OK pdf npb dan po finish dan outstanding
+OK YUD cost center + business type
+OK YUD edit s/n ada cos center nya
+OK YUD FA resgiter (asset/view)
+OK Wil saat nilai nol angka ga balance di DO
+OK wil Print po kasih page number
+OK wil recalculate NPB
+OK wil Change Currency_id untuk IT admin dan recalculate otomatis
+OK yud stcok -> excelnya ->filternya
+OK yud add Field cost center 10 digit, tambah
+OK wil movement tambah cost center
+OK MR Detail => bisa ke PO , bisa ke Movement
+OK Total DO=> belum calculate waktu edit ajax
+
+TGL 17-06-2011
+-----------------------------------------------------------------
+- ada notification buat jounral yang blum di journal kan
+OK outlog view harus di refresh
+OK saat depreciation ada peringatannya
+OK WIL terbilang rupiah , SeRibu
+OK wil filter items/item_status
+OK WIL movement edit seperti movement add
+YUD Menu archieve, archieve PO tambah prosedur reset MR
+WIL saat movement pilih barang kesave nya berantakan dan di list asset total harga barang beda(it)
+Wil log aktiviti / proses 
+
+Meeting dengan Rabobank Per Tanggal 16-06-2011
+--------------------------------------------------------------------
+1. model user validasi minmal 8 crtr.
+OK login salah 3 kali, nambag counter session di login
+OK ditable user change password date, update password 3 bulan sekali, warning
+
+OK automatic time out 1-2 menit
+OK kolom active di tabel user, aktif= 0 user tidak bisa login
+OK form login kasih warning, kolom 4 copy
+OK setelah login, set flash login suksessfull
+OK setelah login, set flash login suksessfull
+OK change password untuk user all account
+OK Tambah Menu User -> change password
+OK Tambah Menu User -> change password
+
+---------------------------------------
+meeting rabobank tgl 23 juni 2011
+---------------------------------------
+OK YUD semua tombol back ke index
+OK YUD asset/history
+OK YUD add invoices read only
+	bisa ganti rate
+	termin pembayaran
+	template journal
+	can_edit = false jika GS
+OK YUD check edit invoices di fincon recaculate = price amount
+	price = rp_rate* price cur
+	amount = qty*price
+OK YUD items,supplier pdf/excel
+OK YUD munculkan nama cost center disemua pdf dan excel
+OK YUD menu baru report DO Hal 39
+OK YUD tombol archive untuk po, kembalikan ke mr outstanding
+OK YUD filter movement/reports/FA tambah category
+
+OK YUD siapin colom accept 0
+	,accepted_datetime null = now
+	, accepted_by null = username
+	asset_detail
+OK po/index tombol action PO outstanding salah link
+OK MR filter di cabang atau di pimcab asset dan asset detail
+OK garansi
+OK purchase/view deletenya buang plus semua list asset
+OK asset/view - code = no inventaris
+OK link FA di asset detail- deletenya hapus juga
+OK date filter buat movement/reports/FA ambil dari doc date
+OK total semua uang dan barang
+OK supplier/history view ya ke DO detail
+	abs(), keterlambatan merah
+OK cek asset detail, field cost_center, belum auto complite
+OK assetdetail/edit sn cost center ada name nya plus semua report
+	ada 2 serial no
+	branch keluarkan namanya
+	cost center
+	location
+	perdetail : brand, type, color
+	serial no 50 digit
+OK WIL session timeout(js)
+OK WIL npb report finish, field finist_date
+OK WIL pdf = surat mutasi
+OK WIL action clas add new po belum ke page po type
+OK WIL pos/view payment term
+OK WIL note di PO
+	ok npb_detail: brand,type, colour
+	ok po_detail: item_code----(colour,brand,type->sudah ada)
+	ok do_detail: item_code----(colour,brand,type->sudah ada)
+	ok asset: item_code,(waranty_name,waranty_year->belum)
+	ok asset_detail: item_code,(waranty_name,waranty_year, accepted, acepted_date_time,accepted_by)
+	ok source_code : my_detail_add.js, pos_controller, view npb, view po
+OK WIL mr untuk group/user it_admin
+	ok tombol delete hidden
+	ok ada tombol cancel atau reject
+	ok tombol sent mr for processing hilangkan
+	ok redirect after sent for processing ke index
+	ok tombol sent for processing, lansung approve by it, status processing
+OK WIL cek relasi po payment term
+OK WIL cek print po kalo ada 2 baris barang
+OK tambah kolom->brand,type,colour,code name dipisah
+OK WIL delete podetail, hapus 
+OK WIL di add po, cek add po type, disabled kalo dari mr aja
+
+OK asset_history, link2 ke docoment nya
+OK asset history: find asset => view history
+	$po 			: Po->read($assetDetail['po_id'])
+	$mr 			: Mr->read($po['Npb'])
+	tanggal beli	: $assetDetail['date_purchase']
+	tanggal start 	: $assetDetail['date_start'],
+	end				: $assetDetail['date_end']
+	harga beli		: $assetDetail['price']
+	supplier		: $assetDetail['Po']['supplier_id']
+	garansi			: $assetDetail['warranty_name'] 
+					  $assetDetail['warranty_year']  
+					  warranty expire date: 
+					  $assetDetail['date_purchase'] + $assetDetail['warranty_year'] 
+	mr				: tampilkan Npb terkait asset <- Po <- Npb
+	po				: tampilkan Po terkait asset <- Po 
+	do				: tampilkan do terkait asset <- Po <- Do
+	invoice			: tampilkan invoice terkait asset <- Po <- Do <- Invoice
+	payments		: tampilkan payment terkait asset <- Po <- Do <- Invoice <- Payments 
+	ada ?			: $assetDetail['ada']
+	services		: --
+	movements		: cari movementDetails yang ada assetDetail ini
+					  tampilkan Move No, Origin, Destination
+	disposals		: cari disposalDetails yang ada assetDetail ini
+					  tampilkan Dis No, Type, Harga Jual, Profit Loss
+OK tambah asset history menu baru, jadinya via Find Asset
+OK alur approval untuk penerimaan do, ke gs supervisor, ketika spv approve , do status done
+OK semua laporan FA hanya utk yang ada='Y'
+OK semua laporan FA split name/brand/type, tambah kolom cabang/cost center/location/serial no
+OK edit invoice, update curr => udsate amount detail
+	
+OK supplier history: view = detail barang
+
+persetujuan movement antara 2 cabang
+
+asset edit approval flow
+- new asset edit
+- select asset id
+- old value
+- new value
+- send to supervisor
+- approval supervisor
+- update asset values
+
+
+YUD stock/history pdf dan excel
+OK WIL Physycal check, tinggal validation kalo udah data yang di cek
+YUD Print barcode di label
+OK YUD transfer report pdf/excel 
+YUD abs(), keterlambatan merah di supplier/history
+OK YUD list asset detail history
+OK WIL FA register di ade di hapus, yang bisa hanya gs
+YUD Outlog Reject/Cancel notes
+YUD refund Reject/Cancel notes
+YUD Supplierrefund Reject/Cancel notes
+migrasi ke mssql
+Depr. Cost Double Declining buat apa???? di /asset_details/reports/rekap
+
+
+Update qty_filled MR waktu movement terjadi setelah approved
+OK group fa management dan fa supervis = kasi menu reports FA dan FA
+
+----------------------------------------------------------------------
+UAT
+
+copy buat retur
+FA supplier retur
+FA retur
+
+check do/add
+
+major
+OK yud edit master department: kode (SQL)
+-retur barang di stock dan genaral service
+OK yud menu MR it dan GS
+	cabang dan stock saja
+OK kode MR cab/type mr/autonumber/bulan tahun
+    type mr = GS or IT
+	contoh: RDS/MR-GS/001/0911
+OK yud kode PO RII/HO(head office)-jenis barang/autonumber/bulan tahun
+	jenis barang = GS or IT
+
+-kode inventaris [cab/kode barang/autonumber]
+	
+OK yud kode barcode [cab/kode barang/nama/number registrasi]
+	------CHECK DULU---------
+OK import xls buat UAT
+	
+OK yud user baru (SQL)
+	
+OK wil DO
+	register asset
+	notifikasi
+OK yud DO print PDF DO/print
+
+OK yud register asset: Print PDF  purchase/print
+
+yud + wil : test alur stock tanpa journal
+-retur barang di stock dan genaral service
+
+yud Format number Retur: RDS/RET-FA/001/0911
+
+
+
+hasil pertemuan dengan pak heri jam 10:00
+major :
+OK saat DO list yg tadi error saat approved by supervisor dia balik ke index yg berbeda ID tetapi  DO yg lain(DO sebelum error perhari kemarin)
+   itu baik
+OK DO bisa insert minus pak, jadi nilai balance nya bertambahklau kita insert minus...... apa kah klau kita insert 0,05 dengan koma bisa juga?
+minor :
+OK check asset detail xls/pdf
+
+hasil pertemuan dengan pak heri jam 1:30
+
+OK List DO filter pake auto_complete karena kemungkinan ada banyak PO
+OK error asset(kemungkinan database atau jaringan) tapi saya liat database nya ada tapi saya cari tidak ada
+OK inlog drat notifacation nya tidak ada
+OK Print PO harus ada walaupun sudah di sent
+OK DO view ada link ke status DO di dalam sana bisa new DO itu harus di hapus(link)
+OK filter asset/asset detail blum bagus karena cabang masih bisa melihat barang cabang lain
+
+OK PO print discount nya di hapus karena terdapat 2 discount dan payment termin dan downpayment tidak muncul 
+OK YUD cancel di gs admin 
+OK WIL saat purchase view klau dulu nya kita pilih USD di purchase/view dia keluar dengan USD tapi dengan harga Rupiah
+
+OK  dan pak heri menyinggung hal baru saya dengan
+      bahwa MR tidak bisa tercreate lebih dari jam 12
+      tapi saya blum ngerti itu status nya gmana
+      dan itu juga ada kemungkinan ada di PO
+
+hasil test hari kamis 15-07-2011
+--- major
+
+OK YUD setiap approved harus tau date nya kapan dan jam nya contoh kondisi
+  di PO sudah di approved oleh approval1 jam 11 jadi ada date approved menurut tgl sekarang dan jam aproved
+  dan apabila di approval2 date dan tanggal nya terupdate
+  PO, DO, stock, fincon, Fa retur, Fa supplier, disposal, fa management, IT
+  
+OK WIL saat FA register harus nya ke FA management pola nya sama dengan Stock register
+
+OK WIL DO lebih dari satu, contoh misal supplier tersebut tidak bisa kirim barang hari kemarin jadi DO 
+  hari kemarin dan DO hari ini datang bersamaan jadi terdapat 2 DO?
+
+OK nbps/check_stock saat qty kurang tidak bisa create outlog
+OK dikarenakan keterlambatan barang datang dari supplier di kenakan sangsi potongan harga
+  posisi nya di Fincon dibawah total payment dan yg masuk ke report nya total harga bukan total yg di bayar
+  
+OK YUD stock report harus nya persummery Item dan disini harus bisa terlihat avg price walau pembelian kedua harga nya beda
+		Status masih ada 2 menu
+OK YUD delete detail po harus mereset ke npb detail
+	qty filled = 0, PO id harus null delete aja
+
+ --- minor
+OK WIL cancel perdetail di hilangkan di gsadmin
+OK - history asset detail hanya MR yg bersangkutan dan DO bersangkutan yg ada tambah link
+- sort by name list
+OK saat insert no invoice 10 digit tidak bisa(max length?)
+pending - PPN dan PPH di fincon hrs nya tidak bisa di edit
+OK WIL - DO yg receive nya 0 tidak boleh terlihat di Invoices/view
+OK - saat payment klau tidak ada termin(0%) tidak boleh terlihat
+OK - di invoices klau nilai dengan koma tidak terlihat(USD)
+	klau bukan rupiah ada koma
+OK - klau sudah full payment new payment tidak boleh terlihat lagi
+OK YUD filter report di cabang dan pimcab
+OK - paginate di label dan physycal check
+OK movement cancel dan reject harus di keluar kan namanya sekarang masih berupa ID
+OK - movement cancel dan reject masih tidak baik dan notifacation
+OK- filtert saat di cancel/reject notification nya tidak ada
+OK- npb index saat barang stock procurement masih bisa liat(movement / procurement)
+OK YUD create PO tanpa mr(edit nama item, type, brand, color tidak ada autocomplete nya maksud nya tidak bisa di edit)
+  itu emang tidak ada atau ada??? muncul nya delete mr = 0
+OK YUD PO index ada invoice
+OK fa retur proccesing saat finish nge update ke asset detail
+OK YUD outlog/inlog dan stockmanagement cancel atau reject blum ada note nya
+OK YUD PDF outlog
+OK disposal print PDF masih kurang baik
+OK - usage error di karena data nya di ambil dari FA import bukan dari Usage
+
+- payment keluar saat approved atau sebalik nya?
+
+
+
+Purchase Order
+1.Hasil print out PO No. RII/HO-GS/001/0711  total pada PO menyebutkan
+sebesar Rp. 34.870.000, namun pada saat diterima sebagai Fixas atas PO
+no. tsb berubah menjadi Rp. 104.515.0i00
+
+2.PO yang diterbitkan tanpa termin, saat akan dilakukan proses payment
+langsung muncul pembayaran termin ke 2
+
+OK invoice_payment amount paid / amount invoice
+
+Invoice
+OK 1.Jurnal porsting error, tombol Journal tidak muncul, krn amount paidnya bermasalah
+OK 2.Pada saat proses invoice curency tidak terlihat sehingga tidak
+diketahui nominal tsb dalam satuan rupiah/mata uang lainnya.. keluar kan cur nya
+
+Delivery Order
+OK 1.Fungsi Cancel tdk berfungsi
+OK 2.DO notification tdk terfilter sehingga tergabung antara PO yg sudah
+     finish dan masih outstanding
+
+OK convert asset = 0
+
+Fixas
+1.Fixas IT yg sdh diregister ?datanya hilang?
+2.Laporan : masih ada beberapa laporan yang error, next page tdk berfungsi
+3.Movement
+- fixas yang sudah dipilih untuk dipindahkan sesuai nomor inventaris
+yg dipilih (klik), namun pada saat proses movement semua data atas
+jenis barang yang sama semuanya keluar (seharusnya data yang keluar
+hanya fixas dgn nomor inventaris yg telah dipilih)
+OK - Berita Acara pemindahan fixas belum bisa di cetak
+	keluarkan di semua status nya
+OK - Laporan Fixas transfer detail : tidak ada isinya (hanya berupa angka2 yg tidak dpt dimengerti)
+- MR MOVEMENT yang di CANCEL oleh FA management datanya hilang
+4.Fungsi tombol ?Cancel? pada user ?FA supervisor? Tidak Berfungsi
+  notifacation untuk famanagement fastatus = new
+
+
+Inventory
+OK 1.Laporan stock masih salah
+OK 2.Transaksi keluar masuk barang masih salah
+OK 3.Permintaan melebihi stock yang ada tdk dapat diproses dan MR statusnya menjadi gantung
+
+
+OK - view/add payment->'unpaid' di fincon
+OK - inventory ledger-> autocomplete
+OK - stock status banyak warning2
+OK - mr -> outlog (delete)
+	->status = processing
+OK - check stock qty filled > qty request(mr) blum di protek
+
+
+- edit mr di pimcab saat MR jadi draft
+- supplier replacement blum ada notification dan proces ledger nya

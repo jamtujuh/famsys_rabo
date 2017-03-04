@@ -1,0 +1,33 @@
+JUMAT-MINGGU
+
+Purchase Order
+	1.Hasil print out PO No. RII/HO-GS/001/0711  total pada PO menyebutkan sebesar Rp. 34.870.000, namun pada saat diterima sebagai Fixas atas PO no. tsb berubah menjadi Rp. 104.515.000
+	2.PO yang diterbitkan tanpa termin, saat akan dilakukan proses payment langsung muncul pembayaran termin ke 2
+
+Delivery Order
+	1.Fungsi Cancel tdk berfungsi
+	2.DO notification tdk terfilter sehingga tergabung antara PO yg sudah finish dan masih outstanding
+
+
+SENIN
+	Invoice
+	1.Jurnal porsting error
+	2.Pada saat proses invoice curency tidak terlihat sehingga tidak diketahui nominal tsb dalam satuan rupiah/mata uang lainnya
+
+	Fixas
+	1.Fixas IT yg sdh diregister “datanya hilang”
+	2.Laporan : masih ada beberapa laporan yang error, next page tdk berfungsi
+	3.Movement
+	- fixas yang sudah dipilih untuk dipindahkan sesuai nomor inventaris yg dipilih (klik), namun pada saat proses movement semua data atas jenis barang yang sama semuanya keluar (seharusnya data yang keluar hanya fixas dgn nomor inventaris yg telah dipilih)
+	- Berita Acara pemindahan fixas belum bisa di cetak
+	- Laporan Fixas transfer detail : tidak ada isinya (hanya berupa angka2 yg tidak dpt dimengerti)
+	- MR MOVEMENT yang di CANCEL oleh FA management datanya hilang
+	4.Fungsi tombol “Cancel” pada user “FA supervisor” Tidak Berfungsi
+
+SELASA
+	Inventory
+	1.Laporan stock masih salah
+	2.Transaksi keluar masuk barang masih salah
+	3.Permintaan melebihi stock yang ada tdk dapat diproses dan MR statusnya menjadi gantung
+
+	Testing Internal 

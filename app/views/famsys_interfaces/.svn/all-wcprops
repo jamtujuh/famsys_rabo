@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/famsys/!svn/ver/2031/app/views/famsys_interfaces
+END
+view.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/famsys/!svn/ver/2031/app/views/famsys_interfaces/view.ctp
+END
+index_xls.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/famsys/!svn/ver/2042/app/views/famsys_interfaces/index_xls.ctp
+END
+index_pdf.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/famsys/!svn/ver/2042/app/views/famsys_interfaces/index_pdf.ctp
+END
+add_into_interface.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/famsys/!svn/ver/2037/app/views/famsys_interfaces/add_into_interface.ctp
+END
+edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/famsys/!svn/ver/2031/app/views/famsys_interfaces/edit.ctp
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/famsys/!svn/ver/2042/app/views/famsys_interfaces/index.ctp
+END
+add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/famsys/!svn/ver/2037/app/views/famsys_interfaces/add.ctp
+END
+prepare_journal.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/famsys/!svn/ver/2031/app/views/famsys_interfaces/prepare_journal.ctp
+END

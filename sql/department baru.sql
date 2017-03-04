@@ -1,0 +1,380 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.4
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Jun 02, 2011 at 11:27 AM
+-- Server version: 5.1.41
+-- PHP Version: 5.3.1
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `famsys`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `departments`
+--
+
+CREATE TABLE IF NOT EXISTS `departments` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `code` char(3) NOT NULL,
+  `name` char(40) DEFAULT NULL,
+  `account_code` varchar(20) NOT NULL,
+  `area` varchar(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `account_code` (`account_code`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1015 ;
+
+--
+-- Dumping data for table `departments`
+--
+
+INSERT INTO `departments` (`id`, `code`, `name`, `account_code`, `area`) VALUES
+(1, '010', 'Abdul Muis', '010', '1'),
+(2, '012', 'Raden Sales', '012', '1'),
+(3, '130', 'Depok', '130', '1'),
+(4, '016', 'Kramat Jati', '016', '1'),
+(5, '021', 'Cipinang', '021', '1'),
+(6, '026', 'Krekot', '026', '1'),
+(7, '027', 'Iskandarsyah', '027', '1'),
+(8, '031', 'Jatinegara', '031', '1'),
+(9, '032', 'Bintaro', '032', '1'),
+(10, '034', 'Harapan Indah Bekasi', '034', '1'),
+(11, '036', 'Tebet', '036', '1'),
+(12, '038', 'Kelapa Gading', '038', '1'),
+(13, '062', 'Karawang - Resinda', '062', '1'),
+(14, '091', 'Kebon Sirih', '091', '1'),
+(15, '096', 'Sunter', '096', '1'),
+(16, '099', 'Tanah Abang', '099', '1'),
+(17, '175', 'Fatmawati', '175', '1'),
+(18, '180', 'Slipi', '180', '1'),
+(19, '302', 'Rasuna Said(Plaza 89)', '302', '1'),
+(20, '400', 'Pontianak', '400', '1'),
+(21, '642', 'Bogor', '642', '1'),
+(22, '011', 'Perniagaan', '011', '2'),
+(23, '015', 'Palmerah', '015', '2'),
+(24, '017', 'Tanhung Duren', '017', '2'),
+(25, '018', 'Pasar Pagi', '018', '2'),
+(26, '024', 'Bumi Serpong Damai', '024', '2'),
+(27, '025', 'Tangerang', '025', '2'),
+(28, '028', 'Taman Alfa', '028', '2'),
+(29, '030', 'Teluk Gong', '030', '2'),
+(30, '033', 'Daan Mogot Baru', '033', '2'),
+(31, '035', 'Green Garden', '035', '2'),
+(32, '037', 'Bandengan', '037', '2'),
+(33, '039', 'Gading Serpong', '039', '2'),
+(34, '060', 'Bandung - Aceh', '060', '2'),
+(35, '090', 'Mangga Dua Mall', '090', '2'),
+(36, '092', 'Glodok Makmur', '092', '2'),
+(37, '093', 'Muara Karang', '093', '2'),
+(38, '094', 'Taman Palem', '094', '2'),
+(39, '095', 'Meruya', '095', '2'),
+(40, '660', 'Sukabumi', '660', '2'),
+(41, '051', 'Lampung - Teluk Betung', '051', '3'),
+(42, '052', 'Lampung - Metro', '052', '3'),
+(43, '053', 'Palembang - Sayangan', '053', '3'),
+(44, '055', 'Palembang - Ilir Barat Permai', '055', '3'),
+(45, '303', 'Lampung - Kartini', '303', '3'),
+(46, '570', 'Pekanbaru', '570', '3'),
+(47, '576', 'Batam', '576', '3'),
+(48, '711', 'Medan Asia', '711', '3'),
+(49, '562', 'Medan Diponegoro', '562', '3'),
+(50, '061', 'Cirebon', '061', '4'),
+(51, '070', 'Semarang - Agus Salim', '070', '4'),
+(52, '071', 'Kudus', '071', '4'),
+(53, '072', 'Solo', '072', '4'),
+(54, '073', 'Jogyakarta', '073', '4'),
+(55, '074', 'Magelang', '074', '4'),
+(56, '075', 'Magelang', '075', '4'),
+(57, '076', 'Semarang - Ahmad Yani', '076', '4'),
+(58, '077', 'Semarang - Puri Anjasmoro', '077', '4'),
+(59, '078', 'Pati', '078', '4'),
+(60, '722', 'Palur', '722', '4'),
+(61, '742', 'Temanggung', '742', '4'),
+(62, '790', 'Tegal', '790', '4'),
+(63, '080', 'Surabaya - Tunjungan', '080', '5'),
+(64, '081', 'Surabaya - Kembang Jepun', '081', '5'),
+(65, '082', 'Surabaya - Ngagel', '082', '5'),
+(66, '083', 'Surabaya - Pasar Turi', '083', '5'),
+(67, '085', 'Jember', '085', '5'),
+(68, '086', 'Denpasar', '086', '5'),
+(69, '087', 'Malang - Pasar Besar', '087', '5'),
+(70, '088', 'Surabaya - HR Muhammad', '088', '5'),
+(71, '089', 'Kediri', '089', '5'),
+(72, '899', 'KPNO', '899-RL', '0'),
+(73, '899', 'KPNO', '899-WS', '0'),
+(1000, '', 'Compliance', '', ''),
+(1001, '', 'Core Banking Project', '', ''),
+(1002, '', 'Corporate Banking', '', ''),
+(1003, '', 'Corporate Communications', '', ''),
+(1004, '', 'Finance & Risk-Financial Control', '', ''),
+(1005, '', 'Finance & Risk-Legal', '', ''),
+(1006, '', 'Finance & Risk-Project Management', '', ''),
+(1007, '', 'Finance & Risk-Risk Management', '', ''),
+(1008, '', 'Human Resources', '', ''),
+(1009, '', 'Internal Audit', '', ''),
+(1010, '', 'Management', '', ''),
+(1011, '', 'Operations & IT-Information Technology', '', ''),
+(1012, '', 'Operations & IT-Operations', '', ''),
+(1013, '', 'Retail & SME', '', ''),
+(1014, '', 'Treasury', '', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `department_subs`
+--
+
+CREATE TABLE IF NOT EXISTS `department_subs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `code` char(3) DEFAULT NULL,
+  `name` char(40) DEFAULT NULL,
+  `department_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=72 ;
+
+--
+-- Dumping data for table `department_subs`
+--
+
+INSERT INTO `department_subs` (`id`, `code`, `name`, `department_id`) VALUES
+(69, 'dwd', 'dwad', 1),
+(68, 'ddd', 'www', 1),
+(67, '161', 'Kramat Jati 3', 4),
+(66, '161', 'Kramat Jati 2', 4),
+(65, '161', 'Kramat Jati 1', 4),
+(1, '', 'Advisory & Assurance', 1000),
+(2, '', 'Compliance Management', 1000),
+(3, '', 'Local Regulation', 1000),
+(4, '', 'Core Banking', 1001),
+(5, '', 'Corporate Banking Management', 1002),
+(6, '', 'Relationship Management', 1002),
+(7, '', 'STCF', 1002),
+(8, '', 'Trade Finance Information', 1002),
+(9, '', 'Transactional Service', 1002),
+(10, '', 'Corporate Marketing & Communication Mana', 1003),
+(11, '', 'Creative Advertising', 1003),
+(12, '', 'Internal Communications & E-Communicatio', 1003),
+(13, '', 'Public and Media Relations & CSR', 1003),
+(14, '', 'BI Reporting, Tax & Project', 1004),
+(15, '', 'Financial Control', 1004),
+(16, '', 'MIS-HO Reporting & Accounting', 1004),
+(17, '', 'Legal', 1005),
+(18, '', 'Finance & Risk Management', 1006),
+(19, '', 'Commodity Support Group', 1007),
+(20, '', 'Credit Risk', 1007),
+(21, '', 'Credit Risk Admin', 1007),
+(22, '', 'Finance & Risk Management', 1007),
+(23, '', 'Market Risk', 1007),
+(24, '', 'Operational Risk', 1007),
+(25, '', 'Portfolio Management', 1007),
+(26, '', 'Special Assets Management', 1007),
+(27, '', 'Compensation and Benefit', 1008),
+(28, '', 'Employee Relations and Communication', 1008),
+(29, '', 'HR Services and Administration', 1008),
+(30, '', 'Human Resources Management', 1008),
+(31, '', 'Learning and Development', 1008),
+(32, '', 'Internal Audit Management', 1009),
+(33, '', 'IT Audit', 1009),
+(34, '', 'Retail and SME Audit', 1009),
+(35, '', 'Wholesale and HO Function Audit', 1009),
+(36, '', 'Management', 1010),
+(37, '', 'IT Infrastructure', 1011),
+(38, '', 'IT System & Development', 1011),
+(39, '', 'Central Operations Asset', 1012),
+(40, '', 'Central Operations Liabilities + FX', 1012),
+(41, '', 'Delivery Channel', 1012),
+(42, '', 'General Services', 1012),
+(43, '', 'Operations & IT Management', 1012),
+(44, '', 'Operations Development & Support', 1012),
+(45, '', 'Security & BCM', 1012),
+(46, '', 'Commercial', 1013),
+(47, '', 'Products & Strategy', 1013),
+(48, '', 'Retail & SME Management', 1013),
+(49, '', 'Sales & Distribution', 1013),
+(50, '', 'Fx Trading', 1014),
+(51, '', 'Money Market', 1014),
+(52, '', 'Sales - Branch and Retail', 1014),
+(53, '', 'Sales - Corporate & Structured Products', 1014),
+(70, 'dd', 'ww', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `department_units`
+--
+
+CREATE TABLE IF NOT EXISTS `department_units` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `code` char(3) DEFAULT NULL,
+  `name` char(40) DEFAULT NULL,
+  `department_id` int(11) DEFAULT NULL,
+  `department_sub_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=157 ;
+
+--
+-- Dumping data for table `department_units`
+--
+
+INSERT INTO `department_units` (`id`, `code`, `name`, `department_id`, `department_sub_id`) VALUES
+(1, '', 'Advisory & Assurance', 1000, 1),
+(2, '', 'Compliance Management', 1000, 2),
+(3, '', 'Local Regulation', 1000, 3),
+(4, '', '#N/A', 1001, 4),
+(5, '', 'Corporate Banking Management', 1002, 5),
+(6, '', 'Relationship Management', 1002, 6),
+(7, '', 'STCF', 1002, 7),
+(8, '', '#N/A', 1002, 8),
+(9, '', 'Transactional Service', 1002, 9),
+(10, '', 'Corporate Marketing & Communication Mana', 1003, 10),
+(11, '', 'Creative Advertising', 1003, 11),
+(12, '', 'Internal Communications & E-Communicatio', 1003, 12),
+(13, '', 'Public and Media Relations & CSR', 1003, 13),
+(14, '', 'BI Reporting', 1004, 14),
+(15, '', 'BI Reporting, Tax & Project', 1004, 14),
+(16, '', 'IT Finance & Project', 1004, 14),
+(17, '', 'Tax', 1004, 14),
+(18, '', 'Financial Control Management', 1004, 15),
+(19, '', 'Accounting', 1004, 16),
+(20, '', 'MIS & HO Reporting', 1004, 16),
+(21, '', 'MIS-HO Reporting & Accounting', 1004, 16),
+(22, '', 'Regional Office Accounting', 1004, 16),
+(23, '', 'Legal - Counsel, Retail', 1005, 17),
+(24, '', 'Legal - Counsel, Wholesale/Commercial', 1005, 17),
+(25, '', 'Legal - Remedial Legal Team', 1005, 17),
+(26, '', 'Project Management', 1006, 18),
+(27, '', 'CSG', 1007, 19),
+(28, '', 'Credit Risk Commercial & SME-Appraisal a', 1007, 20),
+(29, '', 'Credit Risk Commercial & SME-Commercial', 1007, 20),
+(30, '', 'Credit Risk Commercial & SME-SME Analyst', 1007, 20),
+(31, '', 'Credit Risk Management', 1007, 20),
+(32, '', 'Credit Risk Wholesale', 1007, 20),
+(33, '', 'Credit Secretary', 1007, 20),
+(34, '', 'CRA Retail', 1007, 21),
+(35, '', 'CRA Wholesale', 1007, 21),
+(36, '', 'Credit Risk Admin', 1007, 21),
+(37, '', 'Credit Support & Reporting', 1007, 21),
+(38, '', 'Finance & Risk Management', 1007, 22),
+(39, '', 'Market Risk', 1007, 23),
+(40, '', 'Operational Risk', 1007, 24),
+(41, '', 'Portfolio Management', 1007, 25),
+(42, '', 'Special Assets Management', 1007, 26),
+(43, '', 'Compensation and Benefit', 1008, 27),
+(44, '', 'HR Payroll', 1008, 27),
+(45, '', 'HRIS', 1008, 27),
+(46, '', 'Employee Relations and Communication', 1008, 28),
+(47, '', 'HRRM', 1008, 28),
+(48, '', 'HR Services', 1008, 29),
+(49, '', 'HR Management', 1008, 30),
+(50, '', 'L & D', 1008, 31),
+(51, '', 'IA Management', 1009, 32),
+(52, '', 'IT & Ops Audit', 1009, 33),
+(53, '', 'Retail and SME Audit', 1009, 34),
+(54, '', 'Wholesale Banking and HO Function Audit', 1009, 35),
+(55, '', 'Management', 1010, 36),
+(56, '', 'Management Trainee-Rabo High Flyer', 1010, 36),
+(57, '', 'ITI - Business Support', 1011, 37),
+(58, '', 'ITI - Client Support-Client Support', 1011, 37),
+(59, '', 'ITI - Data Center-', 1011, 37),
+(60, '', 'ITI - Help Desk', 1011, 37),
+(61, '', 'ITI - Management', 1011, 37),
+(62, '', 'ITI - Network Support-IT Network & Secur', 1011, 37),
+(63, '', 'ITI - System Support-IT System Support', 1011, 37),
+(64, '', 'ITSD - Development Project', 1011, 38),
+(65, '', 'ITSD - Engineer', 1011, 38),
+(66, '', 'ITSD - System & Development-Application', 1011, 38),
+(67, '', 'ITSD - System & Development-Application', 1011, 38),
+(68, '', 'ITSD - System & Development-Regional Sys', 1011, 38),
+(69, '', 'ITSD - System & Development', 1011, 38),
+(70, '', 'Central Operations Asset Management', 1012, 39),
+(71, '', 'International Trade Services-Internation', 1012, 39),
+(72, '', 'International Trade Services-Structure T', 1012, 39),
+(73, '', 'International Trade Services-Trade Loan', 1012, 39),
+(74, '', 'International Trade Services', 1012, 39),
+(75, '', 'International Trade Services Management', 1012, 39),
+(76, '', 'Loan Operations-Retail Loan Operations', 1012, 39),
+(77, '', 'Loan Operations-Wholesale Loan Operation', 1012, 39),
+(78, '', 'Loan Operations', 1012, 39),
+(79, '', 'Card and E-banking', 1012, 40),
+(80, '', 'Cash Management', 1012, 40),
+(81, '', 'Central Operations Liabilities + FX Mana', 1012, 40),
+(82, '', 'Settlements-Bill Payment', 1012, 40),
+(83, '', 'Settlements-Cek & BG Printing', 1012, 40),
+(84, '', 'Settlements-Central Processing', 1012, 40),
+(85, '', 'Settlements-International Clearing', 1012, 40),
+(86, '', 'Settlements-Local Clearing', 1012, 40),
+(87, '', 'Settlements', 1012, 40),
+(88, '', 'Treasury Operations', 1012, 40),
+(89, '', 'Branch Operations-Branch Operations', 1012, 41),
+(90, '', 'Branch Operations-Branch Operations - Of', 1012, 41),
+(91, '', 'Branch Operations-Branch Operations - Ot', 1012, 41),
+(92, '', 'Branch Operations-Branch Operations - Se', 1012, 41),
+(93, '', 'Contact Center', 1012, 41),
+(94, '', 'Delivery Channel Management', 1012, 41),
+(95, '', 'Wealth Management Operations', 1012, 41),
+(96, '', 'General Administration-Admin & Payment T', 1012, 42),
+(97, '', 'General Administration-Administration', 1012, 42),
+(98, '', 'General Administration-Filing Management', 1012, 42),
+(99, '', 'General Administration-Inventory Managem', 1012, 42),
+(100, '', 'General Administration-Stock Control', 1012, 42),
+(101, '', 'General Services Management', 1012, 42),
+(102, '', 'Procurement', 1012, 42),
+(103, '', 'Property & Facility Management', 1012, 42),
+(104, '', 'Service and Maintenance-Occupational Hea', 1012, 42),
+(105, '', 'Service and Maintenance-Office Support', 1012, 42),
+(106, '', 'Operations Management', 1012, 43),
+(107, '', 'Branch Operations Support', 1012, 44),
+(108, '', 'MIS', 1012, 44),
+(109, '', 'Operations Development & Support Managem', 1012, 44),
+(110, '', 'QA & Reconciliation Operations-Quality A', 1012, 44),
+(111, '', 'QA & Reconciliation Operations-Reconcili', 1012, 44),
+(112, '', 'QA & Reconciliation Operations', 1012, 44),
+(113, '', 'System and Procedures', 1012, 44),
+(114, '', 'BCM', 1012, 45),
+(115, '', 'Security & BCM Management', 1012, 45),
+(116, '', 'Security Operations', 1012, 45),
+(117, '', 'Security Risk Management', 1012, 45),
+(118, '', 'Source Code Control', 1012, 45),
+(119, '', 'Commercial', 1013, 46),
+(120, '', 'Products & Strategy Management', 1013, 47),
+(121, '', 'Retail & SME Funding', 1013, 47),
+(122, '', 'Retail & SME Funding and Wealth', 1013, 47),
+(123, '', 'Retail & SME Lending', 1013, 47),
+(124, '', 'Retail & SME Management', 1013, 48),
+(125, '', 'Network Strategy & Branch Optimization', 1013, 49),
+(126, '', 'Regional-Account Officer', 1013, 49),
+(127, '', 'Regional-Branch Office', 1013, 49),
+(128, '', 'Regional', 1013, 49),
+(129, '', 'S&D Management', 1013, 49),
+(130, '', 'Sales & Service Quality-Sales & Service', 1013, 49),
+(131, '', 'Sales & Service Quality-Special Project', 1013, 49),
+(132, '', 'Sales Acquisition', 1013, 49),
+(133, '', 'Sales Support, MIS, SIS, Agency Manageme', 1013, 49),
+(134, '', 'Fx Trading', 1014, 50),
+(135, '', 'Money Market', 1014, 51),
+(136, '', 'Sales - Branch and Retail', 1014, 52),
+(137, '', 'Sales - Corporate & Structured Products', 1014, 53),
+(138, '111', 'Kramat Jati 1 1', 4, 65),
+(140, '676', 'Kramat Jati 2 1', 4, 66),
+(141, 'dwd', 'dwd', 1, 69),
+(142, 'dw', 'wd', 1, 69),
+(143, 'dwa', 'dwad', 1, 69),
+(144, 'dwd', 'dddd', 1, 69),
+(145, 'dd', 'w', 1, 69),
+(156, 'dwd', 'dwad', 4, 67),
+(155, 'dd', 'ww', 4, 67);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

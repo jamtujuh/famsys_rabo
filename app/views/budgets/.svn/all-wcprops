@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/famsys/!svn/ver/1991/app/views/budgets
+END
+view.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/famsys/!svn/ver/1991/app/views/budgets/view.ctp
+END
+edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/famsys/!svn/ver/1991/app/views/budgets/edit.ctp
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/famsys/!svn/ver/1991/app/views/budgets/index.ctp
+END
+add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/famsys/!svn/ver/1991/app/views/budgets/add.ctp
+END

@@ -1,0 +1,3335 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-02-08 08:37+0700\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: \controllers\asset_categories_controller.php:13;38
+msgid "Invalid asset category"
+msgstr ""
+
+#: \controllers\asset_categories_controller.php:24;43
+msgid "The asset category has been saved"
+msgstr ""
+
+#: \controllers\asset_categories_controller.php:27;46
+msgid "The asset category could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\asset_categories_controller.php:60
+msgid "Invalid id for asset category"
+msgstr ""
+
+#: \controllers\asset_categories_controller.php:64
+msgid "Asset category deleted"
+msgstr ""
+
+#: \controllers\asset_categories_controller.php:67
+msgid "Asset category was not deleted"
+msgstr ""
+
+#: \controllers\asset_details_controller.php:15;40
+msgid "Invalid asset detail"
+msgstr ""
+
+#: \controllers\asset_details_controller.php:25;45
+msgid "The asset detail has been saved"
+msgstr ""
+
+#: \controllers\asset_details_controller.php:28;48
+msgid "The asset detail could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\asset_details_controller.php:63
+msgid "Invalid id for asset detail"
+msgstr ""
+
+#: \controllers\asset_details_controller.php:67
+msgid "Asset detail deleted"
+msgstr ""
+
+#: \controllers\asset_details_controller.php:70
+msgid "Asset detail was not deleted"
+msgstr ""
+
+#: \controllers\assets_controller.php:16;94
+msgid "Invalid asset"
+msgstr ""
+
+#: \controllers\assets_controller.php:78
+msgid "The asset and asset details has been saved"
+msgstr ""
+
+#: \controllers\assets_controller.php:81;102
+msgid "The asset could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\assets_controller.php:99
+msgid "The asset has been saved"
+msgstr ""
+
+#: \controllers\assets_controller.php:116
+msgid "Invalid id for asset"
+msgstr ""
+
+#: \controllers\assets_controller.php:121
+msgid "Asset deleted"
+msgstr ""
+
+#: \controllers\assets_controller.php:124
+msgid "Asset was not deleted"
+msgstr ""
+
+#: \controllers\currencies_controller.php:14;34
+msgid "Invalid currency"
+msgstr ""
+
+#: \controllers\currencies_controller.php:24;39
+msgid "The currency has been saved"
+msgstr ""
+
+#: \controllers\currencies_controller.php:27;42
+msgid "The currency could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\currencies_controller.php:52
+msgid "Invalid id for currency"
+msgstr ""
+
+#: \controllers\currencies_controller.php:56
+msgid "Currency deleted"
+msgstr ""
+
+#: \controllers\currencies_controller.php:59
+msgid "Currency was not deleted"
+msgstr ""
+
+#: \controllers\currency_details_controller.php:14;36
+msgid "Invalid currency detail"
+msgstr ""
+
+#: \controllers\currency_details_controller.php:24;41
+msgid "The currency detail has been saved"
+msgstr ""
+
+#: \controllers\currency_details_controller.php:27;44
+msgid "The currency detail could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\currency_details_controller.php:56
+msgid "Invalid id for currency detail"
+msgstr ""
+
+#: \controllers\currency_details_controller.php:60
+msgid "Currency detail deleted"
+msgstr ""
+
+#: \controllers\currency_details_controller.php:63
+msgid "Currency detail was not deleted"
+msgstr ""
+
+#: \controllers\groups_controller.php:14;36
+msgid "Invalid group"
+msgstr ""
+
+#: \controllers\groups_controller.php:24;41
+msgid "The group has been saved"
+msgstr ""
+
+#: \controllers\groups_controller.php:27;44
+msgid "The group could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\groups_controller.php:56
+msgid "Invalid id for group"
+msgstr ""
+
+#: \controllers\groups_controller.php:60
+msgid "Group deleted"
+msgstr ""
+
+#: \controllers\groups_controller.php:63
+msgid "Group was not deleted"
+msgstr ""
+
+#: \controllers\invoice_details_controller.php:15;41
+msgid "Invalid invoice detail"
+msgstr ""
+
+#: \controllers\invoice_details_controller.php:27;48
+msgid "The invoice detail has been saved"
+msgstr ""
+
+#: \controllers\invoice_details_controller.php:30;51
+msgid "The invoice detail could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\invoice_details_controller.php:65
+msgid "Invalid id for invoice detail"
+msgstr ""
+
+#: \controllers\invoice_details_controller.php:69
+msgid "Invoice detail deleted"
+msgstr ""
+
+#: \controllers\invoice_details_controller.php:72
+msgid "Invoice detail was not deleted"
+msgstr ""
+
+#: \controllers\invoices_controller.php:16;40;78
+msgid "Invalid invoice"
+msgstr ""
+
+#: \controllers\invoices_controller.php:27;46;171
+msgid "The invoice has been saved"
+msgstr ""
+
+#: \controllers\invoices_controller.php:30;49;174
+msgid "The invoice could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\invoices_controller.php:63
+msgid "Invalid id for invoice"
+msgstr ""
+
+#: \controllers\invoices_controller.php:67
+msgid "Invoice deleted"
+msgstr ""
+
+#: \controllers\invoices_controller.php:70
+msgid "Invoice was not deleted"
+msgstr ""
+
+#: \controllers\invoices_controller.php:95;124
+#: \controllers\purchases_controller.php:31;54
+msgid "The purchase has been saved"
+msgstr ""
+
+#: \controllers\invoices_controller.php:97;143
+#: \controllers\purchases_controller.php:34;57
+msgid "The purchase could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\items_controller.php:15;38
+msgid "Invalid item"
+msgstr ""
+
+#: \controllers\items_controller.php:25;43
+msgid "The item has been saved"
+msgstr ""
+
+#: \controllers\items_controller.php:28;46
+msgid "The item could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\items_controller.php:59
+msgid "Invalid id for item"
+msgstr ""
+
+#: \controllers\items_controller.php:63
+msgid "Item deleted"
+msgstr ""
+
+#: \controllers\items_controller.php:66
+msgid "Item was not deleted"
+msgstr ""
+
+#: \controllers\menus_controller.php:13;36
+msgid "Invalid menu"
+msgstr ""
+
+#: \controllers\menus_controller.php:23;41
+msgid "The menu has been saved"
+msgstr ""
+
+#: \controllers\menus_controller.php:26;44
+msgid "The menu could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\menus_controller.php:57
+msgid "Invalid id for menu"
+msgstr ""
+
+#: \controllers\menus_controller.php:61
+msgid "Menu deleted"
+msgstr ""
+
+#: \controllers\menus_controller.php:64
+msgid "Menu was not deleted"
+msgstr ""
+
+#: \controllers\npb_details_controller.php:15;41
+msgid "Invalid npb detail"
+msgstr ""
+
+#: \controllers\npb_details_controller.php:27;48
+msgid "The npb detail has been saved"
+msgstr ""
+
+#: \controllers\npb_details_controller.php:30;51
+msgid "The npb detail could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\npb_details_controller.php:65
+msgid "Invalid id for npb detail"
+msgstr ""
+
+#: \controllers\npb_details_controller.php:69
+msgid "Npb detail deleted"
+msgstr ""
+
+#: \controllers\npb_details_controller.php:72
+msgid "Npb detail was not deleted"
+msgstr ""
+
+#: \controllers\npb_statuses_controller.php:17;37
+msgid "Invalid npb status"
+msgstr ""
+
+#: \controllers\npb_statuses_controller.php:27;42
+msgid "The npb status has been saved"
+msgstr ""
+
+#: \controllers\npb_statuses_controller.php:30;45
+msgid "The npb status could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\npb_statuses_controller.php:55
+msgid "Invalid id for npb status"
+msgstr ""
+
+#: \controllers\npb_statuses_controller.php:59
+msgid "Npb status deleted"
+msgstr ""
+
+#: \controllers\npb_statuses_controller.php:62
+msgid "Npb status was not deleted"
+msgstr ""
+
+#: \controllers\npb_suppliers_controller.php:15;38
+msgid "Invalid npb supplier"
+msgstr ""
+
+#: \controllers\npb_suppliers_controller.php:25;43
+msgid "The npb supplier has been saved"
+msgstr ""
+
+#: \controllers\npb_suppliers_controller.php:28;46
+msgid "The npb supplier could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\npb_suppliers_controller.php:59
+msgid "Invalid id for npb supplier"
+msgstr ""
+
+#: \controllers\npb_suppliers_controller.php:63
+msgid "Npb supplier deleted"
+msgstr ""
+
+#: \controllers\npb_suppliers_controller.php:66
+msgid "Npb supplier was not deleted"
+msgstr ""
+
+#: \controllers\npbs_controller.php:15;43
+msgid "Invalid npb"
+msgstr ""
+
+#: \controllers\npbs_controller.php:29;48;103;120
+msgid "The npb has been saved"
+msgstr ""
+
+#: \controllers\npbs_controller.php:32;51;106;123;142
+msgid "The npb could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\npbs_controller.php:74
+msgid "Npb Supplier Selected"
+msgstr ""
+
+#: \controllers\npbs_controller.php:77
+msgid "Npb Supplier was not selected"
+msgstr ""
+
+#: \controllers\npbs_controller.php:83;96;113;129
+msgid "Invalid id for npb"
+msgstr ""
+
+#: \controllers\npbs_controller.php:87
+msgid "Npb deleted"
+msgstr ""
+
+#: \controllers\npbs_controller.php:90
+msgid "Npb was not deleted"
+msgstr ""
+
+#: \controllers\npbs_controller.php:139
+msgid "The npb has been finished"
+msgstr ""
+
+#: \controllers\po_details_controller.php:14;41
+msgid "Invalid po detail"
+msgstr ""
+
+#: \controllers\po_details_controller.php:26;48
+msgid "The po detail has been saved"
+msgstr ""
+
+#: \controllers\po_details_controller.php:29;51
+msgid "The po detail could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\po_details_controller.php:65
+msgid "Invalid id for po detail"
+msgstr ""
+
+#: \controllers\po_details_controller.php:69
+msgid "Po detail deleted"
+msgstr ""
+
+#: \controllers\po_details_controller.php:72
+msgid "Po detail was not deleted"
+msgstr ""
+
+#: \controllers\po_statuses_controller.php:13;33
+msgid "Invalid po status"
+msgstr ""
+
+#: \controllers\po_statuses_controller.php:23;38
+msgid "The po status has been saved"
+msgstr ""
+
+#: \controllers\po_statuses_controller.php:26;41
+msgid "The po status could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\po_statuses_controller.php:51
+msgid "Invalid id for po status"
+msgstr ""
+
+#: \controllers\po_statuses_controller.php:55
+msgid "Po status deleted"
+msgstr ""
+
+#: \controllers\po_statuses_controller.php:58
+msgid "Po status was not deleted"
+msgstr ""
+
+#: \controllers\pos_controller.php:15;71;105
+msgid "Invalid po"
+msgstr ""
+
+#: \controllers\pos_controller.php:87;113;189
+msgid "The po has been saved"
+msgstr ""
+
+#: \controllers\pos_controller.php:90;116;192
+msgid "The po could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\pos_controller.php:133
+msgid "Invalid id for po"
+msgstr ""
+
+#: \controllers\pos_controller.php:137
+msgid "Po deleted"
+msgstr ""
+
+#: \controllers\pos_controller.php:140
+msgid "Po was not deleted"
+msgstr ""
+
+#: \controllers\purchases_controller.php:16;49
+msgid "Invalid purchase"
+msgstr ""
+
+#: \controllers\purchases_controller.php:77
+msgid "Invalid id for purchase"
+msgstr ""
+
+#: \controllers\purchases_controller.php:81
+msgid "Purchase deleted"
+msgstr ""
+
+#: \controllers\purchases_controller.php:84
+msgid "Purchase was not deleted"
+msgstr ""
+
+#: \controllers\suppliers_controller.php:15;35
+msgid "Invalid supplier"
+msgstr ""
+
+#: \controllers\suppliers_controller.php:25;40
+msgid "The supplier has been saved"
+msgstr ""
+
+#: \controllers\suppliers_controller.php:28;43
+msgid "The supplier could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\suppliers_controller.php:53
+msgid "Invalid id for supplier"
+msgstr ""
+
+#: \controllers\suppliers_controller.php:57
+msgid "Supplier deleted"
+msgstr ""
+
+#: \controllers\suppliers_controller.php:60
+msgid "Supplier was not deleted"
+msgstr ""
+
+#: \controllers\users_controller.php:14;44;65
+msgid "Invalid user"
+msgstr ""
+
+#: \controllers\users_controller.php:25;72
+msgid "Enter the correct user password. Please, try again."
+msgstr ""
+
+#: \controllers\users_controller.php:31;49
+msgid "The user has been saved"
+msgstr ""
+
+#: \controllers\users_controller.php:34;52
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\users_controller.php:77
+msgid "The user password has been changed"
+msgstr ""
+
+#: \controllers\users_controller.php:80
+msgid "The user password could not be changed. Please, try again."
+msgstr ""
+
+#: \controllers\users_controller.php:90
+msgid "Invalid id for user"
+msgstr ""
+
+#: \controllers\users_controller.php:94
+msgid "User deleted"
+msgstr ""
+
+#: \controllers\users_controller.php:97
+msgid "User was not deleted"
+msgstr ""
+
+#: \controllers\warranties_controller.php:15;35
+msgid "Invalid warranty"
+msgstr ""
+
+#: \controllers\warranties_controller.php:25;40
+msgid "The warranty has been saved"
+msgstr ""
+
+#: \controllers\warranties_controller.php:28;43
+msgid "The warranty could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\warranties_controller.php:53
+msgid "Invalid id for warranty"
+msgstr ""
+
+#: \controllers\warranties_controller.php:57
+msgid "Warranty deleted"
+msgstr ""
+
+#: \controllers\warranties_controller.php:60
+msgid "Warranty was not deleted"
+msgstr ""
+
+#: \controllers\components\menu.php:11
+#: \views\asset_categories\process_depr.ctp:2
+#: \views\asset_categories\process_depr.php:2
+#: \views\asset_details\depr_report.ctp:17
+#: \views\assets\depr_recap_report.ctp:17
+#: \views\assets\depr_report.ctp:17
+#: \views\assets\movement_report.ctp:17
+#: \views\assets\process_depr.ctp:5
+#: \views\assets\purchase_report.ctp:16
+#: \views\assets\recap_report.ctp:17
+msgid "Home"
+msgstr ""
+
+#: \controllers\components\menu.php:12
+msgid "Twitter Accounts"
+msgstr ""
+
+#: \controllers\components\menu.php:13
+msgid "RSS Your Tweets"
+msgstr ""
+
+#: \controllers\components\menu.php:14
+msgid "Tweet Scheduler"
+msgstr ""
+
+#: \controllers\components\menu.php:17
+msgid "Register"
+msgstr ""
+
+#: \controllers\components\menu.php:18
+#: \views\users\login.ctp:8
+msgid "Login"
+msgstr ""
+
+#: \controllers\components\menu.php:20
+msgid "MyAccount"
+msgstr ""
+
+#: \controllers\components\menu.php:21
+msgid "Logout"
+msgstr ""
+
+#: \views\asset_categories\add.ctp:4
+msgid "Add Asset Category"
+msgstr ""
+
+#: \views\asset_categories\add.ctp:12
+#: \views\asset_categories\edit.ctp:15
+#: \views\asset_details\add.ctp:75
+#: \views\asset_details\edit.ctp:76
+#: \views\assets\edit.ctp:23
+#: \views\currencies\add.ctp:13
+#: \views\currencies\edit.ctp:14
+#: \views\currency_details\add.ctp:12
+#: \views\currency_details\edit.ctp:13
+#: \views\groups\add.ctp:12
+#: \views\groups\edit.ctp:13
+#: \views\invoice_details\add.ctp:20
+#: \views\invoice_details\edit.ctp:20
+#: \views\invoices\add.ctp:13
+#: \views\invoices\add_from_po.ctp:13
+#: \views\invoices\edit.ctp:15
+#: \views\items\add.ctp:13
+#: \views\items\edit.ctp:14
+#: \views\menus\add.ctp:14
+#: \views\menus\edit.ctp:15
+#: \views\npb_details\add.ctp:17
+#: \views\npb_details\edit.ctp:18
+#: \views\npb_statuses\add.ctp:10
+#: \views\npb_statuses\edit.ctp:10
+#: \views\npb_suppliers\add.ctp:12
+#: \views\npb_suppliers\edit.ctp:11
+#: \views\npbs\add.ctp:17
+#: \views\npbs\edit.ctp:17
+#: \views\po_details\add.ctp:21
+#: \views\po_details\edit.ctp:20
+#: \views\po_statuses\add.ctp:10
+#: \views\po_statuses\edit.ctp:10
+#: \views\pos\add.ctp:14
+#: \views\pos\edit.ctp:26
+#: \views\purchases\add.ctp:49
+#: \views\purchases\admin_add.ctp:28
+#: \views\purchases\admin_edit.ctp:28
+#: \views\purchases\edit.ctp:44
+#: \views\suppliers\add.ctp:20
+#: \views\suppliers\edit.ctp:21
+#: \views\users\add.ctp:15
+#: \views\users\edit.ctp:14
+#: \views\warranties\add.ctp:20
+#: \views\warranties\edit.ctp:21
+msgid "Submit"
+msgstr ""
+
+#: \views\asset_categories\add.ctp:15
+#: \views\asset_categories\edit.ctp:18
+#: \views\asset_categories\index.ctp:12;53
+#: \views\asset_categories\view.ctp:27;74
+#: \views\asset_details\add.ctp:78
+#: \views\asset_details\depr_report.ctp:15
+#: \views\asset_details\edit.ctp:79
+#: \views\asset_details\index.ctp:73;183
+#: \views\asset_details\view.ctp:347
+#: \views\assets\add.ctp:35
+#: \views\assets\depr_recap_report.ctp:15
+#: \views\assets\depr_report.ctp:15
+#: \views\assets\edit.ctp:26
+#: \views\assets\index.ctp:23;75
+#: \views\assets\movement_report.ctp:15
+#: \views\assets\process_depr.ctp:2
+#: \views\assets\purchase_report.ctp:14
+#: \views\assets\recap_report.ctp:15
+#: \views\assets\view.ctp:92
+#: \views\currencies\add.ctp:16
+#: \views\currencies\edit.ctp:17
+#: \views\currencies\index.ctp:11;51
+#: \views\currencies\view.ctp:37;86;155
+#: \views\currency_details\add.ctp:15
+#: \views\currency_details\edit.ctp:16
+#: \views\currency_details\index.ctp:10;51
+#: \views\currency_details\view.ctp:32
+#: \views\groups\add.ctp:15
+#: \views\groups\edit.ctp:16
+#: \views\groups\index.ctp:9;47
+#: \views\groups\view.ctp:27;50;94
+#: \views\invoice_details\add.ctp:23
+#: \views\invoice_details\edit.ctp:23
+#: \views\invoice_details\index.ctp:13;59
+#: \views\invoice_details\view.ctp:47
+#: \views\invoices\add.ctp:16
+#: \views\invoices\add_from_po.ctp:16
+#: \views\invoices\edit.ctp:18
+#: \views\invoices\index.ctp:12;57
+#: \views\invoices\view.ctp:58;94
+#: \views\items\add.ctp:16
+#: \views\items\edit.ctp:17
+#: \views\items\index.ctp:10;53
+#: \views\items\view.ctp:37;64
+#: \views\menus\add.ctp:17
+#: \views\menus\edit.ctp:18
+#: \views\menus\index.ctp:11;53
+#: \views\menus\view.ctp:37;60;101
+#: \views\npb_details\add.ctp:20
+#: \views\npb_details\edit.ctp:21
+#: \views\npb_details\index.ctp:15;66
+#: \views\npb_details\view.ctp:57
+#: \views\npb_statuses\add.ctp:13
+#: \views\npb_statuses\edit.ctp:13
+#: \views\npb_statuses\index.ctp:7;43
+#: \views\npb_statuses\view.ctp:17;39
+#: \views\npb_suppliers\add.ctp:15
+#: \views\npb_suppliers\edit.ctp:14
+#: \views\npb_suppliers\index.ctp:10;51
+#: \views\npb_suppliers\view.ctp:32
+#: \views\npbs\add.ctp:20
+#: \views\npbs\edit.ctp:20
+#: \views\npbs\index.ctp:14;61
+#: \views\npbs\view.ctp:54;83;138;184
+#: \views\po_details\add.ctp:24
+#: \views\po_details\edit.ctp:23
+#: \views\po_details\index.ctp:17;69
+#: \views\po_details\view.ctp:67
+#: \views\po_statuses\add.ctp:13
+#: \views\po_statuses\edit.ctp:13
+#: \views\po_statuses\index.ctp:7;43
+#: \views\po_statuses\view.ctp:17;40
+#: \views\pos\add.ctp:17
+#: \views\pos\add_from_npb.ctp:25;60
+#: \views\pos\edit.ctp:29
+#: \views\pos\index.ctp:13;61
+#: \views\pos\view.ctp:61;96;162
+#: \views\purchases\add.ctp:52
+#: \views\purchases\admin_add.ctp:31
+#: \views\purchases\admin_edit.ctp:31
+#: \views\purchases\admin_index.ctp:25;87
+#: \views\purchases\admin_view.ctp:107
+#: \views\purchases\edit.ctp:47
+#: \views\purchases\index.ctp:15;67
+#: \views\purchases\view.ctp:62;101
+#: \views\suppliers\add.ctp:23
+#: \views\suppliers\edit.ctp:24
+#: \views\suppliers\index.ctp:10;58
+#: \views\suppliers\view.ctp:72
+#: \views\users\add.ctp:18
+#: \views\users\edit.ctp:17
+#: \views\users\index.ctp:11;52
+#: \views\users\set_password.ctp:14
+#: \views\users\view.ctp:37
+#: \views\warranties\add.ctp:23
+#: \views\warranties\edit.ctp:24
+#: \views\warranties\index.ctp:10;49
+#: \views\warranties\view.ctp:72;110;196
+msgid "Actions"
+msgstr ""
+
+#: \views\asset_categories\add.ctp:18
+#: \views\asset_categories\edit.ctp:22
+#: \views\asset_categories\view.ctp:31
+#: \views\invoice_details\add.ctp:29
+#: \views\invoice_details\edit.ctp:30
+#: \views\invoice_details\index.ctp:64
+#: \views\invoice_details\view.ctp:55
+#: \views\invoices\add.ctp:20
+#: \views\invoices\add_from_po.ctp:20
+#: \views\invoices\edit.ctp:23
+#: \views\invoices\index.ctp:60
+#: \views\invoices\view.ctp:64
+#: \views\items\add.ctp:20
+#: \views\items\edit.ctp:22
+#: \views\items\index.ctp:56
+#: \views\items\view.ctp:43
+#: \views\po_details\add.ctp:30
+#: \views\po_details\edit.ctp:30
+#: \views\po_details\index.ctp:74
+#: \views\po_details\view.ctp:75
+msgid "List Asset Categories"
+msgstr ""
+
+#: \views\asset_categories\add.ctp:19
+#: \views\asset_categories\edit.ctp:23
+#: \views\asset_categories\index.ctp:56
+#: \views\asset_categories\view.ctp:33
+#: \views\asset_details\add.ctp:82
+#: \views\asset_details\edit.ctp:84
+#: \views\asset_details\index.ctp:186
+#: \views\asset_details\view.ctp:353
+#: \views\assets\add.ctp:38
+#: \views\assets\edit.ctp:30
+#: \views\assets\view.ctp:96
+#: \views\currencies\add.ctp:20
+#: \views\currencies\edit.ctp:22
+#: \views\currencies\index.ctp:54
+#: \views\currencies\view.ctp:43
+#: \views\warranties\add.ctp:29
+#: \views\warranties\edit.ctp:31
+#: \views\warranties\index.ctp:54
+#: \views\warranties\view.ctp:80
+msgid "List Assets"
+msgstr ""
+
+#: \views\asset_categories\add.ctp:20
+#: \views\asset_categories\edit.ctp:24
+#: \views\asset_categories\index.ctp:57
+#: \views\asset_categories\view.ctp:34;129
+#: \views\asset_details\add.ctp:83
+#: \views\asset_details\edit.ctp:85
+#: \views\asset_details\index.ctp:187
+#: \views\asset_details\view.ctp:354
+#: \views\assets\index.ctp:77
+#: \views\assets\view.ctp:97
+#: \views\currencies\add.ctp:21
+#: \views\currencies\edit.ctp:23
+#: \views\currencies\index.ctp:55
+#: \views\currencies\view.ctp:44;141
+#: \views\purchases\view.ctp:138
+msgid "New Asset"
+msgstr ""
+
+#: \views\asset_categories\edit.ctp:4
+#: \views\asset_categories\view.ctp:29
+msgid "Edit Asset Category"
+msgstr ""
+
+#: \views\asset_categories\edit.ctp:21
+#: \views\asset_categories\index.ctp:33
+#: \views\asset_categories\view.ctp:120
+#: \views\asset_details\edit.ctp:82
+#: \views\asset_details\index.ctp:163
+#: \views\assets\edit.ctp:29
+#: \views\assets\index.ctp:55
+#: \views\currencies\edit.ctp:20
+#: \views\currencies\index.ctp:31
+#: \views\currencies\view.ctp:132;174
+#: \views\currency_details\edit.ctp:19
+#: \views\currency_details\index.ctp:31
+#: \views\groups\edit.ctp:19
+#: \views\groups\index.ctp:27
+#: \views\groups\view.ctp:70;114
+#: \views\invoice_details\edit.ctp:26
+#: \views\invoice_details\index.ctp:39
+#: \views\invoices\edit.ctp:21
+#: \views\invoices\index.ctp:37
+#: \views\invoices\view.ctp:123
+#: \views\items\edit.ctp:20
+#: \views\items\index.ctp:33
+#: \views\items\view.ctp:88
+#: \views\menus\edit.ctp:21
+#: \views\menus\index.ctp:33
+#: \views\menus\view.ctp:80;118
+#: \views\npb_details\edit.ctp:24
+#: \views\npb_details\index.ctp:46
+#: \views\npb_statuses\edit.ctp:16
+#: \views\npb_statuses\index.ctp:23
+#: \views\npb_statuses\view.ctp:60
+#: \views\npb_suppliers\edit.ctp:17
+#: \views\npb_suppliers\index.ctp:31
+#: \views\npbs\edit.ctp:23
+#: \views\npbs\index.ctp:41
+#: \views\npbs\view.ctp:108;158
+#: \views\po_details\edit.ctp:26
+#: \views\po_details\index.ctp:49
+#: \views\po_statuses\edit.ctp:16
+#: \views\po_statuses\index.ctp:23
+#: \views\po_statuses\view.ctp:62
+#: \views\pos\edit.ctp:32
+#: \views\pos\index.ctp:41
+#: \views\pos\view.ctp:126
+#: \views\purchases\admin_edit.ctp:34
+#: \views\purchases\admin_index.ctp:67
+#: \views\purchases\edit.ctp:50
+#: \views\purchases\index.ctp:47
+#: \views\purchases\view.ctp:129
+#: \views\suppliers\edit.ctp:27
+#: \views\suppliers\index.ctp:38
+#: \views\users\edit.ctp:20
+#: \views\users\index.ctp:32
+#: \views\users\set_password.ctp:17
+#: \views\warranties\edit.ctp:27
+#: \views\warranties\index.ctp:29
+#: \views\warranties\view.ctp:145;243
+msgid "Delete"
+msgstr ""
+
+#: \views\asset_categories\edit.ctp:21
+#: \views\asset_categories\index.ctp:33
+#: \views\asset_categories\view.ctp:30;120
+#: \views\asset_details\edit.ctp:82
+#: \views\asset_details\index.ctp:163
+#: \views\asset_details\view.ctp:350
+#: \views\assets\edit.ctp:29
+#: \views\assets\index.ctp:55
+#: \views\assets\view.ctp:95
+#: \views\currencies\edit.ctp:20
+#: \views\currencies\index.ctp:31
+#: \views\currencies\view.ctp:40;132;174
+#: \views\currency_details\edit.ctp:19
+#: \views\currency_details\index.ctp:31
+#: \views\currency_details\view.ctp:35
+#: \views\groups\edit.ctp:19
+#: \views\groups\index.ctp:27
+#: \views\groups\view.ctp:30;70;114
+#: \views\invoice_details\edit.ctp:26
+#: \views\invoice_details\index.ctp:39
+#: \views\invoice_details\view.ctp:50
+#: \views\invoices\edit.ctp:21
+#: \views\invoices\index.ctp:37
+#: \views\invoices\view.ctp:61;123
+#: \views\items\edit.ctp:20
+#: \views\items\index.ctp:33
+#: \views\items\view.ctp:40;88
+#: \views\menus\edit.ctp:21
+#: \views\menus\index.ctp:33
+#: \views\menus\view.ctp:40;80;118
+#: \views\npb_details\edit.ctp:24
+#: \views\npb_details\index.ctp:46
+#: \views\npb_details\view.ctp:60
+#: \views\npb_statuses\edit.ctp:16
+#: \views\npb_statuses\index.ctp:23
+#: \views\npb_statuses\view.ctp:20;60
+#: \views\npb_suppliers\edit.ctp:17
+#: \views\npb_suppliers\index.ctp:31
+#: \views\npb_suppliers\view.ctp:35
+#: \views\npbs\edit.ctp:23
+#: \views\npbs\index.ctp:41
+#: \views\npbs\view.ctp:57;108;158
+#: \views\po_details\edit.ctp:26
+#: \views\po_details\index.ctp:49
+#: \views\po_details\view.ctp:70
+#: \views\po_statuses\edit.ctp:16
+#: \views\po_statuses\index.ctp:23
+#: \views\po_statuses\view.ctp:20;62
+#: \views\pos\edit.ctp:32
+#: \views\pos\index.ctp:41
+#: \views\pos\view.ctp:64;126
+#: \views\purchases\admin_edit.ctp:34
+#: \views\purchases\admin_index.ctp:67
+#: \views\purchases\admin_view.ctp:110
+#: \views\purchases\edit.ctp:50
+#: \views\purchases\index.ctp:47
+#: \views\purchases\view.ctp:65;129
+#: \views\suppliers\edit.ctp:27
+#: \views\suppliers\index.ctp:38
+#: \views\suppliers\view.ctp:75
+#: \views\users\edit.ctp:20
+#: \views\users\index.ctp:32
+#: \views\users\set_password.ctp:17
+#: \views\users\view.ctp:40
+#: \views\warranties\edit.ctp:27
+#: \views\warranties\index.ctp:29
+#: \views\warranties\view.ctp:75;145;243
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: \views\asset_categories\index.ctp:2
+msgid "Asset Categories"
+msgstr ""
+
+#: \views\asset_categories\index.ctp:31
+#: \views\asset_categories\view.ctp:118
+#: \views\asset_details\index.ctp:161
+#: \views\assets\index.ctp:53
+#: \views\currencies\index.ctp:29
+#: \views\currencies\view.ctp:130;172
+#: \views\currency_details\index.ctp:29
+#: \views\groups\index.ctp:25
+#: \views\groups\view.ctp:68;112
+#: \views\invoice_details\index.ctp:37
+#: \views\invoices\index.ctp:35
+#: \views\invoices\view.ctp:121
+#: \views\items\index.ctp:31
+#: \views\items\view.ctp:86
+#: \views\menus\index.ctp:31
+#: \views\menus\view.ctp:78;116
+#: \views\npb_details\index.ctp:44
+#: \views\npb_statuses\index.ctp:21
+#: \views\npb_statuses\view.ctp:58
+#: \views\npb_suppliers\index.ctp:29
+#: \views\npbs\index.ctp:39
+#: \views\npbs\view.ctp:106;202
+#: \views\po_details\index.ctp:47
+#: \views\po_statuses\index.ctp:21
+#: \views\po_statuses\view.ctp:60
+#: \views\pos\add_from_npb.ctp:47
+#: \views\pos\index.ctp:39
+#: \views\pos\view.ctp:124;183
+#: \views\purchases\admin_index.ctp:65
+#: \views\purchases\index.ctp:45
+#: \views\purchases\view.ctp:127
+#: \views\suppliers\index.ctp:36
+#: \views\users\index.ctp:29
+#: \views\warranties\index.ctp:27
+#: \views\warranties\view.ctp:143;241
+msgid "View"
+msgstr ""
+
+#: \views\asset_categories\index.ctp:32
+#: \views\asset_categories\view.ctp:119
+#: \views\asset_details\index.ctp:162
+#: \views\assets\index.ctp:54
+#: \views\currencies\index.ctp:30
+#: \views\currencies\view.ctp:131;173
+#: \views\currency_details\index.ctp:30
+#: \views\groups\index.ctp:26
+#: \views\groups\view.ctp:69;113
+#: \views\invoice_details\index.ctp:38
+#: \views\invoices\index.ctp:36
+#: \views\invoices\view.ctp:122
+#: \views\items\index.ctp:32
+#: \views\items\view.ctp:87
+#: \views\menus\index.ctp:32
+#: \views\menus\view.ctp:79;117
+#: \views\npb_details\index.ctp:45
+#: \views\npb_statuses\index.ctp:22
+#: \views\npb_statuses\view.ctp:59
+#: \views\npb_suppliers\index.ctp:30
+#: \views\npbs\index.ctp:40
+#: \views\npbs\view.ctp:107;157;203
+#: \views\po_details\index.ctp:48
+#: \views\po_statuses\index.ctp:22
+#: \views\po_statuses\view.ctp:61
+#: \views\pos\index.ctp:40
+#: \views\pos\view.ctp:125;184
+#: \views\purchases\admin_index.ctp:66
+#: \views\purchases\index.ctp:46
+#: \views\purchases\view.ctp:128
+#: \views\suppliers\index.ctp:37
+#: \views\users\index.ctp:31
+#: \views\warranties\index.ctp:28
+#: \views\warranties\view.ctp:144;242
+msgid "Edit"
+msgstr ""
+
+#: \views\asset_categories\index.ctp:41
+#: \views\asset_details\depr_report.ctp:102
+#: \views\asset_details\index.ctp:171
+#: \views\assets\depr_report.ctp:106
+#: \views\assets\index.ctp:63
+#: \views\assets\purchase_report.ctp:65
+#: \views\currencies\index.ctp:39
+#: \views\currency_details\index.ctp:39
+#: \views\groups\index.ctp:35
+#: \views\invoice_details\index.ctp:47
+#: \views\invoices\index.ctp:45
+#: \views\items\index.ctp:41
+#: \views\menus\index.ctp:41
+#: \views\npb_details\index.ctp:54
+#: \views\npb_statuses\index.ctp:31
+#: \views\npb_suppliers\index.ctp:39
+#: \views\npbs\index.ctp:49
+#: \views\po_details\index.ctp:57
+#: \views\po_statuses\index.ctp:31
+#: \views\pos\index.ctp:49
+#: \views\purchases\admin_index.ctp:75
+#: \views\purchases\index.ctp:55
+#: \views\suppliers\index.ctp:46
+#: \views\users\index.ctp:40
+#: \views\warranties\index.ctp:37
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: \views\asset_categories\index.ctp:46
+#: \views\asset_details\depr_report.ctp:108
+#: \views\asset_details\index.ctp:176
+#: \views\assets\depr_report.ctp:112
+#: \views\assets\index.ctp:68
+#: \views\assets\purchase_report.ctp:70
+#: \views\currencies\index.ctp:44
+#: \views\currency_details\index.ctp:44
+#: \views\groups\index.ctp:40
+#: \views\invoice_details\index.ctp:52
+#: \views\invoices\index.ctp:50
+#: \views\items\index.ctp:46
+#: \views\menus\index.ctp:46
+#: \views\npb_details\index.ctp:59
+#: \views\npb_statuses\index.ctp:36
+#: \views\npb_suppliers\index.ctp:44
+#: \views\npbs\index.ctp:54
+#: \views\po_details\index.ctp:62
+#: \views\po_statuses\index.ctp:36
+#: \views\pos\index.ctp:54
+#: \views\purchases\admin_index.ctp:80
+#: \views\purchases\index.ctp:60
+#: \views\suppliers\index.ctp:51
+#: \views\users\index.ctp:45
+#: \views\warranties\index.ctp:42
+msgid "previous"
+msgstr ""
+
+#: \views\asset_categories\index.ctp:49
+#: \views\asset_details\depr_report.ctp:110
+#: \views\asset_details\index.ctp:179
+#: \views\assets\depr_report.ctp:114
+#: \views\assets\index.ctp:71
+#: \views\assets\purchase_report.ctp:73
+#: \views\currencies\index.ctp:47
+#: \views\currency_details\index.ctp:47
+#: \views\groups\index.ctp:43
+#: \views\invoice_details\index.ctp:55
+#: \views\invoices\index.ctp:53
+#: \views\items\index.ctp:49
+#: \views\menus\index.ctp:49
+#: \views\npb_details\index.ctp:62
+#: \views\npb_statuses\index.ctp:39
+#: \views\npb_suppliers\index.ctp:47
+#: \views\npbs\index.ctp:57
+#: \views\po_details\index.ctp:65
+#: \views\po_statuses\index.ctp:39
+#: \views\pos\index.ctp:57
+#: \views\purchases\admin_index.ctp:83
+#: \views\purchases\index.ctp:63
+#: \views\suppliers\index.ctp:54
+#: \views\users\index.ctp:48
+#: \views\warranties\index.ctp:45
+msgid "next"
+msgstr ""
+
+#: \views\asset_categories\index.ctp:55
+#: \views\asset_categories\view.ctp:32
+#: \views\invoice_details\add.ctp:30
+#: \views\invoice_details\edit.ctp:31
+#: \views\invoice_details\index.ctp:65
+#: \views\invoice_details\view.ctp:56
+#: \views\invoices\add.ctp:21
+#: \views\invoices\add_from_po.ctp:21
+#: \views\invoices\edit.ctp:24
+#: \views\invoices\index.ctp:61
+#: \views\invoices\view.ctp:65
+#: \views\items\add.ctp:21
+#: \views\items\edit.ctp:23
+#: \views\items\index.ctp:57
+#: \views\items\view.ctp:44
+#: \views\po_details\add.ctp:31
+#: \views\po_details\edit.ctp:31
+#: \views\po_details\index.ctp:75
+#: \views\po_details\view.ctp:76
+msgid "New Asset Category"
+msgstr ""
+
+#: \views\asset_categories\process_depr.ctp:3
+#: \views\assets\process_depr.ctp:8
+msgid "Asset Depr."
+msgstr ""
+
+#: \views\asset_categories\process_depr.ctp:4
+#: \views\asset_categories\process_depr.php:3
+#: \views\assets\depr_recap_report.ctp:19
+#: \views\assets\depr_report.ctp:19
+#: \views\assets\movement_report.ctp:19
+#: \views\assets\process_depr.ctp:11
+#: \views\assets\recap_report.ctp:19
+msgid "Asset Details Depr."
+msgstr ""
+
+#: \views\asset_categories\process_depr.ctp:5
+#: \views\asset_categories\process_depr.php:4
+#: \views\asset_details\depr_report.ctp:20
+#: \views\assets\add.ctp:39
+#: \views\assets\depr_recap_report.ctp:20
+#: \views\assets\depr_report.ctp:20
+#: \views\assets\edit.ctp:31
+#: \views\assets\index.ctp:78
+#: \views\assets\movement_report.ctp:20
+#: \views\assets\process_depr.ctp:14
+#: \views\assets\purchase_report.ctp:19
+#: \views\assets\recap_report.ctp:20
+#: \views\assets\view.ctp:98
+#: \views\purchases\add.ctp:55
+#: \views\purchases\admin_add.ctp:34
+#: \views\purchases\admin_edit.ctp:35
+#: \views\purchases\admin_view.ctp:111
+#: \views\purchases\edit.ctp:51
+#: \views\purchases\view.ctp:66
+#: \views\warranties\add.ctp:27
+#: \views\warranties\edit.ctp:29
+#: \views\warranties\index.ctp:52
+#: \views\warranties\view.ctp:78
+msgid "List Purchases"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:2
+#: \views\assets\view.ctp:19
+#: \views\invoice_details\view.ctp:14
+#: \views\items\view.ctp:24
+#: \views\po_details\view.ctp:14
+#: \views\pos\view.ctp:83
+msgid "Asset Category"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:4;42
+#: \views\asset_details\view.ctp:4
+#: \views\assets\view.ctp:4;109
+#: \views\currencies\view.ctp:4;54;150
+#: \views\currency_details\view.ctp:4
+#: \views\groups\view.ctp:4;44;88
+#: \views\invoice_details\view.ctp:4
+#: \views\invoices\view.ctp:4;79
+#: \views\items\view.ctp:4;54
+#: \views\menus\view.ctp:4;54;98
+#: \views\npb_details\view.ctp:4
+#: \views\npb_statuses\view.ctp:4;32
+#: \views\npb_suppliers\view.ctp:4
+#: \views\npbs\view.ctp:4;74;134;178
+#: \views\po_details\view.ctp:4
+#: \views\po_statuses\view.ctp:4;32
+#: \views\pos\view.ctp:81;154
+#: \views\purchases\admin_view.ctp:4
+#: \views\purchases\view.ctp:4;88
+#: \views\suppliers\view.ctp:4
+#: \views\users\view.ctp:4
+#: \views\warranties\view.ctp:4;89;163
+msgid "Id"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:9;45
+#: \views\asset_details\view.ctp:39
+#: \views\assets\view.ctp:25;110
+#: \views\currencies\view.ctp:9;57
+#: \views\groups\view.ctp:9;14;48
+#: \views\invoice_details\view.ctp:19
+#: \views\invoices\view.ctp:82
+#: \views\items\view.ctp:9
+#: \views\menus\view.ctp:99
+#: \views\npb_statuses\view.ctp:9
+#: \views\po_details\view.ctp:19
+#: \views\po_statuses\view.ctp:9
+#: \views\pos\view.ctp:84
+#: \views\purchases\view.ctp:89
+#: \views\suppliers\view.ctp:9
+#: \views\users\view.ctp:19
+#: \views\warranties\view.ctp:9;166
+msgid "Name"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:14
+msgid "Id Parent"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:19
+msgid "Depr Year"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:30
+msgid "Delete Asset Category"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:38
+#: \views\currencies\view.ctp:50
+#: \views\purchases\view.ctp:84
+#: \views\warranties\view.ctp:159
+msgid "Related Assets"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:43
+#: \views\currencies\view.ctp:55
+#: \views\warranties\view.ctp:164
+msgid "Id Purchase"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:44
+#: \views\currencies\view.ctp:56
+#: \views\invoices\view.ctp:81
+#: \views\warranties\view.ctp:165
+msgid "Id Asset Category"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:46
+#: \views\assets\view.ctp:30
+#: \views\currencies\view.ctp:58
+#: \views\invoice_details\view.ctp:39
+#: \views\invoices\view.ctp:86
+#: \views\items\view.ctp:57
+#: \views\npb_details\view.ctp:19
+#: \views\npbs\view.ctp:76
+#: \views\po_details\view.ctp:39
+#: \views\pos\view.ctp:88
+#: \views\purchases\view.ctp:93
+#: \views\warranties\view.ctp:167
+msgid "Qty"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:47
+#: \views\asset_details\view.ctp:89
+#: \views\assets\view.ctp:35;115
+#: \views\currencies\view.ctp:59
+#: \views\items\view.ctp:19;58
+#: \views\npb_details\view.ctp:24
+#: \views\po_details\view.ctp:44
+#: \views\warranties\view.ctp:168
+msgid "Price"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:48
+#: \views\assets\view.ctp:50
+#: \views\currencies\view.ctp:60
+#: \views\items\view.ctp:60
+#: \views\npb_details\view.ctp:34
+#: \views\warranties\view.ctp:169
+msgid "Amount"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:49
+#: \views\asset_details\view.ctp:84
+#: \views\currencies\view.ctp:61;152
+#: \views\currency_details\view.ctp:14
+#: \views\purchases\admin_view.ctp:9
+#: \views\suppliers\view.ctp:64
+#: \views\warranties\view.ctp:64;91;170
+msgid "Tanggal"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:50
+#: \views\currencies\view.ctp:62
+#: \views\warranties\view.ctp:171
+msgid "Umurek"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:51
+#: \views\asset_details\view.ctp:69
+#: \views\currencies\view.ctp:63
+#: \views\warranties\view.ctp:172
+msgid "Kelfa"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:52
+#: \views\currencies\view.ctp:64
+#: \views\warranties\view.ctp:173
+msgid "Umur Tax"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:53
+#: \views\currencies\view.ctp:65
+#: \views\warranties\view.ctp:174
+msgid "Kelas"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:54
+#: \views\currencies\view.ctp:66
+#: \views\warranties\view.ctp:175
+msgid "Ditotal"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:55
+#: \views\asset_details\view.ctp:234
+#: \views\currencies\view.ctp:67
+#: \views\warranties\view.ctp:176
+msgid "Depthnlalu"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:56
+#: \views\asset_details\view.ctp:239
+#: \views\currencies\view.ctp:68
+#: \views\warranties\view.ctp:177
+msgid "Depblnlalumasuk"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:57
+#: \views\asset_details\view.ctp:244
+#: \views\currencies\view.ctp:69
+#: \views\warranties\view.ctp:178
+msgid "Depblninimasuk"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:58
+#: \views\asset_details\view.ctp:249
+#: \views\currencies\view.ctp:70
+#: \views\warranties\view.ctp:179
+msgid "Depblnlalukeluar"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:59
+#: \views\asset_details\view.ctp:254
+#: \views\currencies\view.ctp:71
+#: \views\warranties\view.ctp:180
+msgid "Depblninikeluar"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:60
+#: \views\asset_details\view.ctp:259
+#: \views\currencies\view.ctp:72
+#: \views\warranties\view.ctp:181
+msgid "Depthnini"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:61
+#: \views\asset_details\view.ctp:264
+#: \views\currencies\view.ctp:73
+#: \views\warranties\view.ctp:182
+msgid "Book Value"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:62
+#: \views\asset_details\view.ctp:44
+#: \views\assets\view.ctp:66;111
+#: \views\currencies\view.ctp:74
+#: \views\invoice_details\view.ctp:24
+#: \views\invoices\view.ctp:83
+#: \views\po_details\view.ctp:24
+#: \views\pos\view.ctp:87
+#: \views\purchases\view.ctp:90
+#: \views\warranties\view.ctp:183
+msgid "Color"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:63
+#: \views\asset_details\view.ctp:49
+#: \views\assets\view.ctp:71;112
+#: \views\currencies\view.ctp:75
+#: \views\invoice_details\view.ctp:29
+#: \views\invoices\view.ctp:84
+#: \views\po_details\view.ctp:29
+#: \views\pos\view.ctp:85
+#: \views\purchases\view.ctp:91
+#: \views\warranties\view.ctp:184
+msgid "Brand"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:64
+#: \views\asset_details\view.ctp:54
+#: \views\assets\view.ctp:76;113
+#: \views\currencies\view.ctp:76
+#: \views\invoice_details\view.ctp:34
+#: \views\invoices\view.ctp:85
+#: \views\po_details\view.ctp:34
+#: \views\pos\view.ctp:86
+#: \views\purchases\view.ctp:92
+#: \views\warranties\view.ctp:185
+msgid "Type"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:65
+#: \views\currencies\view.ctp:77;151
+msgid "Currency Id"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:66
+#: \views\currencies\view.ctp:78
+#: \views\invoices\view.ctp:90
+#: \views\items\view.ctp:59
+#: \views\npb_details\view.ctp:29
+#: \views\po_details\view.ctp:49
+#: \views\pos\view.ctp:91
+#: \views\warranties\view.ctp:187
+msgid "Price Cur"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:67
+#: \views\assets\view.ctp:82
+#: \views\currencies\view.ctp:79
+#: \views\warranties\view.ctp:92;188
+msgid "Id Warranty"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:68
+#: \views\asset_details\view.ctp:304
+#: \views\currencies\view.ctp:80
+#: \views\purchases\admin_view.ctp:49
+#: \views\warranties\view.ctp:99;189
+msgid "Serial No"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:69
+#: \views\asset_details\view.ctp:319
+#: \views\currencies\view.ctp:81
+#: \views\purchases\admin_view.ctp:59
+#: \views\warranties\view.ctp:101;190
+msgid "Doc Total"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:70
+#: \views\asset_details\view.ctp:309
+#: \views\assets\view.ctp:14
+#: \views\currencies\view.ctp:82
+#: \views\purchases\admin_view.ctp:54
+#: \views\purchases\view.ctp:14
+#: \views\warranties\view.ctp:100;191
+msgid "Voucher No"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:71
+#: \views\asset_details\view.ctp:314
+#: \views\currencies\view.ctp:83
+#: \views\purchases\admin_view.ctp:84
+#: \views\warranties\view.ctp:106;192
+msgid "Pos Ting"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:72
+#: \views\asset_details\view.ctp:324
+#: \views\assets\view.ctp:55
+#: \views\currencies\view.ctp:84
+#: \views\purchases\admin_view.ctp:89
+#: \views\purchases\view.ctp:9
+#: \views\warranties\view.ctp:107;193
+msgid "Date Of Purchase"
+msgstr ""
+
+#: \views\asset_categories\view.ctp:73
+#: \views\asset_details\view.ctp:329
+#: \views\currencies\view.ctp:85
+#: \views\purchases\admin_view.ctp:99
+#: \views\warranties\view.ctp:109;194
+msgid "Kd Luar Tanggal"
+msgstr ""
+
+#: \views\asset_details\add.ctp:4
+msgid "Add Asset Detail"
+msgstr ""
+
+#: \views\asset_details\add.ctp:81
+#: \views\asset_details\edit.ctp:83
+#: \views\asset_details\view.ctp:351
+#: \views\assets\add.ctp:41
+#: \views\assets\edit.ctp:33
+#: \views\assets\index.ctp:80
+#: \views\assets\view.ctp:100
+msgid "List Asset Details"
+msgstr ""
+
+#: \views\asset_details\add.ctp:84
+#: \views\asset_details\edit.ctp:86
+#: \views\asset_details\index.ctp:188
+#: \views\asset_details\view.ctp:355
+msgid "List Conditions"
+msgstr ""
+
+#: \views\asset_details\add.ctp:85
+#: \views\asset_details\edit.ctp:87
+#: \views\asset_details\index.ctp:189
+#: \views\asset_details\view.ctp:356
+msgid "New Condition"
+msgstr ""
+
+#: \views\asset_details\add.ctp:86
+#: \views\asset_details\edit.ctp:88
+#: \views\asset_details\index.ctp:190
+#: \views\asset_details\view.ctp:357
+msgid "List Locations"
+msgstr ""
+
+#: \views\asset_details\add.ctp:87
+#: \views\asset_details\edit.ctp:89
+#: \views\asset_details\index.ctp:191
+#: \views\asset_details\view.ctp:358
+msgid "New Location"
+msgstr ""
+
+#: \views\asset_details\add.ctp:88
+#: \views\asset_details\edit.ctp:90
+#: \views\asset_details\index.ctp:192
+#: \views\asset_details\view.ctp:359
+#: \views\invoices\add.ctp:24
+#: \views\invoices\add_from_po.ctp:24
+#: \views\invoices\edit.ctp:27
+#: \views\invoices\index.ctp:64
+#: \views\invoices\view.ctp:68
+#: \views\npbs\add.ctp:24
+#: \views\npbs\edit.ctp:25
+#: \views\npbs\index.ctp:64
+#: \views\npbs\view.ctp:60
+#: \views\pos\add.ctp:23
+#: \views\pos\add_from_npb.ctp:66
+#: \views\pos\edit.ctp:36
+#: \views\pos\index.ctp:66
+#: \views\pos\view.ctp:69
+#: \views\purchases\add.ctp:60
+#: \views\purchases\admin_add.ctp:39
+#: \views\purchases\admin_edit.ctp:40
+#: \views\purchases\admin_index.ctp:94
+#: \views\purchases\admin_view.ctp:117
+#: \views\purchases\edit.ctp:56
+#: \views\purchases\index.ctp:74
+#: \views\purchases\view.ctp:72
+msgid "List Departments"
+msgstr ""
+
+#: \views\asset_details\add.ctp:89
+#: \views\asset_details\edit.ctp:91
+#: \views\asset_details\index.ctp:193
+#: \views\asset_details\view.ctp:360
+#: \views\invoices\add.ctp:25
+#: \views\invoices\add_from_po.ctp:25
+#: \views\invoices\edit.ctp:28
+#: \views\invoices\index.ctp:65
+#: \views\invoices\view.ctp:69
+#: \views\npbs\add.ctp:25
+#: \views\npbs\edit.ctp:26
+#: \views\npbs\index.ctp:65
+#: \views\npbs\view.ctp:61
+#: \views\pos\add.ctp:24
+#: \views\pos\add_from_npb.ctp:67
+#: \views\pos\edit.ctp:37
+#: \views\pos\index.ctp:67
+#: \views\pos\view.ctp:70
+#: \views\purchases\add.ctp:61
+#: \views\purchases\admin_add.ctp:40
+#: \views\purchases\admin_edit.ctp:41
+#: \views\purchases\admin_index.ctp:95
+#: \views\purchases\admin_view.ctp:118
+#: \views\purchases\edit.ctp:57
+#: \views\purchases\index.ctp:75
+#: \views\purchases\view.ctp:73
+msgid "New Department"
+msgstr ""
+
+#: \views\asset_details\depr_report.ctp:3
+msgid "Asset Details Depreciation Report"
+msgstr ""
+
+#: \views\asset_details\depr_report.ctp:18
+#: \views\assets\depr_recap_report.ctp:18
+#: \views\assets\depr_report.ctp:18
+#: \views\assets\movement_report.ctp:18
+#: \views\assets\purchase_report.ctp:17
+#: \views\assets\recap_report.ctp:18
+msgid "Calculate Depreciation"
+msgstr ""
+
+#: \views\asset_details\depr_report.ctp:19
+#: \views\assets\purchase_report.ctp:18
+msgid "Assets Depr."
+msgstr ""
+
+#: \views\asset_details\depr_report.ctp:107
+#: \views\assets\depr_report.ctp:111
+msgid "first"
+msgstr ""
+
+#: \views\asset_details\depr_report.ctp:111
+#: \views\assets\depr_report.ctp:115
+msgid "last"
+msgstr ""
+
+#: \views\asset_details\edit.ctp:4
+#: \views\asset_details\view.ctp:349
+msgid "Edit Asset Detail"
+msgstr ""
+
+#: \views\asset_details\index.ctp:2
+msgid "Asset Details"
+msgstr ""
+
+#: \views\asset_details\index.ctp:185
+#: \views\asset_details\view.ctp:352
+#: \views\assets\add.ctp:42
+#: \views\assets\edit.ctp:34
+#: \views\assets\index.ctp:81
+#: \views\assets\view.ctp:101
+msgid "New Asset Detail"
+msgstr ""
+
+#: \views\asset_details\view.ctp:2
+msgid "Asset Detail"
+msgstr ""
+
+#: \views\asset_details\view.ctp:9
+msgid "Condition"
+msgstr ""
+
+#: \views\asset_details\view.ctp:14
+#: \views\assets\view.ctp:2
+msgid "Asset"
+msgstr ""
+
+#: \views\asset_details\view.ctp:19
+msgid "Location"
+msgstr ""
+
+#: \views\asset_details\view.ctp:24
+#: \views\invoices\view.ctp:19
+#: \views\npbs\view.ctp:14;181
+#: \views\pos\view.ctp:19;156
+#: \views\purchases\admin_view.ctp:24
+#: \views\purchases\view.ctp:30
+msgid "Department"
+msgstr ""
+
+#: \views\asset_details\view.ctp:29
+msgid "Setatus"
+msgstr ""
+
+#: \views\asset_details\view.ctp:34
+msgid "Kd Gab"
+msgstr ""
+
+#: \views\asset_details\view.ctp:59
+msgid "Ada"
+msgstr ""
+
+#: \views\asset_details\view.ctp:64
+msgid "Date Out"
+msgstr ""
+
+#: \views\asset_details\view.ctp:74
+msgid "Umur"
+msgstr ""
+
+#: \views\asset_details\view.ctp:79
+msgid "Maksi"
+msgstr ""
+
+#: \views\asset_details\view.ctp:94
+msgid "Residu"
+msgstr ""
+
+#: \views\asset_details\view.ctp:99
+msgid "Akdasar"
+msgstr ""
+
+#: \views\asset_details\view.ctp:104
+msgid "Depbln"
+msgstr ""
+
+#: \views\asset_details\view.ctp:109
+msgid "Thnlalu"
+msgstr ""
+
+#: \views\asset_details\view.ctp:114
+msgid "Blnlalu"
+msgstr ""
+
+#: \views\asset_details\view.ctp:119
+msgid "Blnini"
+msgstr ""
+
+#: \views\asset_details\view.ctp:124
+#: \views\assets\view.ctp:120
+msgid "Jan"
+msgstr ""
+
+#: \views\asset_details\view.ctp:129
+#: \views\assets\view.ctp:121
+msgid "Feb"
+msgstr ""
+
+#: \views\asset_details\view.ctp:134
+#: \views\assets\view.ctp:122
+msgid "Mar"
+msgstr ""
+
+#: \views\asset_details\view.ctp:139
+#: \views\assets\view.ctp:123
+msgid "Apr"
+msgstr ""
+
+#: \views\asset_details\view.ctp:144
+#: \views\assets\view.ctp:125
+msgid "Jun"
+msgstr ""
+
+#: \views\asset_details\view.ctp:149
+#: \views\assets\view.ctp:126
+msgid "Jul"
+msgstr ""
+
+#: \views\asset_details\view.ctp:154
+#: \views\assets\view.ctp:127
+msgid "Aug"
+msgstr ""
+
+#: \views\asset_details\view.ctp:159
+#: \views\assets\view.ctp:128
+msgid "Sep"
+msgstr ""
+
+#: \views\asset_details\view.ctp:164
+#: \views\assets\view.ctp:129
+msgid "Oct"
+msgstr ""
+
+#: \views\asset_details\view.ctp:169
+#: \views\assets\view.ctp:130
+msgid "Nov"
+msgstr ""
+
+#: \views\asset_details\view.ctp:174
+#: \views\assets\view.ctp:131
+msgid "Des"
+msgstr ""
+
+#: \views\asset_details\view.ctp:179
+msgid "Hrgjual"
+msgstr ""
+
+#: \views\asset_details\view.ctp:184
+msgid "Jthnlalu"
+msgstr ""
+
+#: \views\asset_details\view.ctp:189
+msgid "Jblnlalu"
+msgstr ""
+
+#: \views\asset_details\view.ctp:194
+msgid "Jblnini"
+msgstr ""
+
+#: \views\asset_details\view.ctp:199
+#: \views\assets\view.ctp:124
+msgid "May"
+msgstr ""
+
+#: \views\asset_details\view.ctp:204
+msgid "Hpthnlalu"
+msgstr ""
+
+#: \views\asset_details\view.ctp:209
+msgid "Hpblnlalumasuk"
+msgstr ""
+
+#: \views\asset_details\view.ctp:214
+msgid "Hpblninimasuk"
+msgstr ""
+
+#: \views\asset_details\view.ctp:219
+msgid "Hpblnlalukeluar"
+msgstr ""
+
+#: \views\asset_details\view.ctp:224
+msgid "Hpblninikeluar"
+msgstr ""
+
+#: \views\asset_details\view.ctp:229
+msgid "Hpthnini"
+msgstr ""
+
+#: \views\asset_details\view.ctp:269
+msgid "Sedang Diluar"
+msgstr ""
+
+#: \views\asset_details\view.ctp:274
+msgid "Service Tanggal"
+msgstr ""
+
+#: \views\asset_details\view.ctp:279
+msgid "Service Selesai Tanggal"
+msgstr ""
+
+#: \views\asset_details\view.ctp:284
+msgid "Date Begin"
+msgstr ""
+
+#: \views\asset_details\view.ctp:289
+msgid "Date End"
+msgstr ""
+
+#: \views\asset_details\view.ctp:294
+msgid "No Urut Prefix"
+msgstr ""
+
+#: \views\asset_details\view.ctp:299
+msgid "No Urut"
+msgstr ""
+
+#: \views\asset_details\view.ctp:334
+msgid "Service Total"
+msgstr ""
+
+#: \views\asset_details\view.ctp:339
+msgid "Service Ket"
+msgstr ""
+
+#: \views\asset_details\view.ctp:350
+msgid "Delete Asset Detail"
+msgstr ""
+
+#: \views\assets\add.ctp:4
+msgid "Add Asset"
+msgstr ""
+
+#: \views\assets\add.ctp:30
+msgid "Build Asset Details"
+msgstr ""
+
+#: \views\assets\add.ctp:40
+#: \views\assets\edit.ctp:32
+#: \views\assets\index.ctp:79
+#: \views\assets\view.ctp:99
+#: \views\purchases\admin_index.ctp:89
+#: \views\purchases\admin_view.ctp:112
+#: \views\purchases\index.ctp:69
+#: \views\purchases\view.ctp:67
+msgid "New Purchase"
+msgstr ""
+
+#: \views\assets\depr_recap_report.ctp:3
+msgid "Assets Depreciation Recapitulation Report"
+msgstr ""
+
+#: \views\assets\depr_report.ctp:3
+msgid "Assets Depreciation Report"
+msgstr ""
+
+#: \views\assets\edit.ctp:4
+#: \views\assets\view.ctp:94
+msgid "Edit Asset"
+msgstr ""
+
+#: \views\assets\index.ctp:2
+msgid "Assets"
+msgstr ""
+
+#: \views\assets\movement_report.ctp:3
+msgid "Fixed Assets Movement Report"
+msgstr ""
+
+#: \views\assets\purchase_report.ctp:2
+msgid "Assets Purchase Report"
+msgstr ""
+
+#: \views\assets\recap_report.ctp:3
+msgid "Assets Recapitulation Report"
+msgstr ""
+
+#: \views\assets\view.ctp:9
+msgid "Purchase Id"
+msgstr ""
+
+#: \views\assets\view.ctp:40
+#: \views\currencies\view.ctp:2
+#: \views\currency_details\view.ctp:9
+#: \views\invoices\view.ctp:89
+#: \views\items\view.ctp:14
+#: \views\npb_details\view.ctp:44
+#: \views\npbs\view.ctp:77
+#: \views\po_details\view.ctp:54
+msgid "Currency"
+msgstr ""
+
+#: \views\assets\view.ctp:45
+msgid "Price in Currrency"
+msgstr ""
+
+#: \views\assets\view.ctp:60;116
+msgid "Economic Age"
+msgstr ""
+
+#: \views\assets\view.ctp:95
+msgid "Delete Asset"
+msgstr ""
+
+#: \views\assets\view.ctp:105
+msgid "Related Asset Details"
+msgstr ""
+
+#: \views\assets\view.ctp:114
+msgid "Date of Purchase"
+msgstr ""
+
+#: \views\assets\view.ctp:117
+msgid "Monthly Depr"
+msgstr ""
+
+#: \views\assets\view.ctp:118;132
+msgid "Book Value "
+msgstr ""
+
+#: \views\assets\view.ctp:119;133
+msgid "Accum. Depr. "
+msgstr ""
+
+#: \views\currencies\add.ctp:4
+msgid "Add Currency"
+msgstr ""
+
+#: \views\currencies\add.ctp:19
+#: \views\currencies\edit.ctp:21
+#: \views\currencies\view.ctp:41
+#: \views\currency_details\add.ctp:19
+#: \views\currency_details\edit.ctp:21
+#: \views\currency_details\index.ctp:54
+#: \views\currency_details\view.ctp:38
+#: \views\npb_details\add.ctp:28
+#: \views\npb_details\edit.ctp:30
+#: \views\npb_details\index.ctp:73
+#: \views\npb_details\view.ctp:67
+#: \views\po_details\add.ctp:32
+#: \views\po_details\edit.ctp:32
+#: \views\po_details\index.ctp:76
+#: \views\po_details\view.ctp:77
+msgid "List Currencies"
+msgstr ""
+
+#: \views\currencies\add.ctp:22
+#: \views\currencies\edit.ctp:24
+#: \views\currencies\index.ctp:56
+#: \views\currencies\view.ctp:45
+#: \views\currency_details\add.ctp:18
+#: \views\currency_details\edit.ctp:20
+#: \views\currency_details\view.ctp:36
+msgid "List Currency Details"
+msgstr ""
+
+#: \views\currencies\add.ctp:23
+#: \views\currencies\edit.ctp:25
+#: \views\currencies\index.ctp:57
+#: \views\currencies\view.ctp:46;183
+#: \views\currency_details\index.ctp:53
+#: \views\currency_details\view.ctp:37
+msgid "New Currency Detail"
+msgstr ""
+
+#: \views\currencies\edit.ctp:4
+#: \views\currencies\view.ctp:39
+msgid "Edit Currency"
+msgstr ""
+
+#: \views\currencies\index.ctp:2
+msgid "Currencies"
+msgstr ""
+
+#: \views\currencies\index.ctp:53
+#: \views\currencies\view.ctp:42
+#: \views\currency_details\add.ctp:20
+#: \views\currency_details\edit.ctp:22
+#: \views\currency_details\index.ctp:55
+#: \views\currency_details\view.ctp:39
+#: \views\npb_details\add.ctp:29
+#: \views\npb_details\edit.ctp:31
+#: \views\npb_details\index.ctp:74
+#: \views\npb_details\view.ctp:68
+#: \views\po_details\add.ctp:33
+#: \views\po_details\edit.ctp:33
+#: \views\po_details\index.ctp:77
+#: \views\po_details\view.ctp:78
+msgid "New Currency"
+msgstr ""
+
+#: \views\currencies\view.ctp:14;153
+#: \views\currency_details\view.ctp:19
+#: \views\po_details\view.ctp:59
+#: \views\pos\view.ctp:90
+#: \views\warranties\view.ctp:195
+msgid "Rp Rate"
+msgstr ""
+
+#: \views\currencies\view.ctp:19
+msgid "Last Update Tgl"
+msgstr ""
+
+#: \views\currencies\view.ctp:24
+#: \views\invoices\view.ctp:29
+#: \views\npb_suppliers\view.ctp:24
+#: \views\npbs\view.ctp:137;183
+#: \views\po_statuses\view.ctp:37
+#: \views\pos\view.ctp:34
+msgid "Description"
+msgstr ""
+
+#: \views\currencies\view.ctp:29;154
+#: \views\currency_details\view.ctp:24
+msgid "Rp BI Rate"
+msgstr ""
+
+#: \views\currencies\view.ctp:40
+msgid "Delete Currency"
+msgstr ""
+
+#: \views\currencies\view.ctp:146
+msgid "Related Currency Details"
+msgstr ""
+
+#: \views\currency_details\add.ctp:4
+msgid "Add Currency Detail"
+msgstr ""
+
+#: \views\currency_details\edit.ctp:4
+#: \views\currency_details\view.ctp:34
+msgid "Edit Currency Detail"
+msgstr ""
+
+#: \views\currency_details\index.ctp:2
+msgid "Currency Details"
+msgstr ""
+
+#: \views\currency_details\view.ctp:2
+msgid "Currency Detail"
+msgstr ""
+
+#: \views\currency_details\view.ctp:35
+msgid "Delete Currency Detail"
+msgstr ""
+
+#: \views\groups\add.ctp:4
+msgid "Add Group"
+msgstr ""
+
+#: \views\groups\add.ctp:18
+#: \views\groups\edit.ctp:20
+#: \views\groups\view.ctp:31
+#: \views\menus\add.ctp:23
+#: \views\menus\edit.ctp:25
+#: \views\menus\index.ctp:58
+#: \views\menus\view.ctp:45
+msgid "List Groups"
+msgstr ""
+
+#: \views\groups\add.ctp:19
+#: \views\groups\edit.ctp:21
+#: \views\groups\index.ctp:50
+#: \views\groups\view.ctp:33
+#: \views\users\add.ctp:21
+#: \views\users\edit.ctp:21
+#: \views\users\set_password.ctp:18
+#: \views\users\view.ctp:41
+msgid "List Users"
+msgstr ""
+
+#: \views\groups\add.ctp:20
+#: \views\groups\edit.ctp:22
+#: \views\groups\index.ctp:51
+#: \views\groups\view.ctp:34;79
+#: \views\users\index.ctp:54
+#: \views\users\view.ctp:42
+msgid "New User"
+msgstr ""
+
+#: \views\groups\add.ctp:21
+#: \views\groups\edit.ctp:23
+#: \views\groups\index.ctp:52
+#: \views\groups\view.ctp:35
+#: \views\menus\add.ctp:20;21
+#: \views\menus\edit.ctp:22;23
+#: \views\menus\index.ctp:56
+#: \views\menus\view.ctp:41;43
+msgid "List Menus"
+msgstr ""
+
+#: \views\groups\add.ctp:22
+#: \views\groups\edit.ctp:24
+#: \views\groups\index.ctp:53
+#: \views\groups\view.ctp:36;123
+#: \views\menus\index.ctp:55
+#: \views\menus\view.ctp:42
+msgid "New Menu"
+msgstr ""
+
+#: \views\groups\edit.ctp:4
+#: \views\groups\view.ctp:29
+msgid "Edit Group"
+msgstr ""
+
+#: \views\groups\index.ctp:2
+msgid "Groups"
+msgstr ""
+
+#: \views\groups\index.ctp:49
+#: \views\groups\view.ctp:32
+#: \views\menus\add.ctp:24
+#: \views\menus\edit.ctp:26
+#: \views\menus\index.ctp:59
+#: \views\menus\view.ctp:46;127
+msgid "New Group"
+msgstr ""
+
+#: \views\groups\view.ctp:2
+msgid "Group"
+msgstr ""
+
+#: \views\groups\view.ctp:19
+#: \views\items\view.ctp:63
+#: \views\menus\view.ctp:100
+#: \views\npb_details\view.ctp:49
+#: \views\npbs\view.ctp:82
+msgid "Descr"
+msgstr ""
+
+#: \views\groups\view.ctp:30
+msgid "Delete Group"
+msgstr ""
+
+#: \views\groups\view.ctp:40
+msgid "Related Users"
+msgstr ""
+
+#: \views\groups\view.ctp:45
+#: \views\users\view.ctp:9
+msgid "Username"
+msgstr ""
+
+#: \views\groups\view.ctp:46
+#: \views\suppliers\view.ctp:29
+#: \views\users\view.ctp:14
+#: \views\warranties\view.ctp:29
+msgid "Email"
+msgstr ""
+
+#: \views\groups\view.ctp:47
+msgid "Password"
+msgstr ""
+
+#: \views\groups\view.ctp:49
+#: \views\users\view.ctp:24
+msgid "Group Id"
+msgstr ""
+
+#: \views\groups\view.ctp:84
+#: \views\menus\view.ctp:50
+msgid "Related Menus"
+msgstr ""
+
+#: \views\groups\view.ctp:89
+#: \views\menus\view.ctp:55
+msgid "Parent Id"
+msgstr ""
+
+#: \views\groups\view.ctp:90
+#: \views\menus\view.ctp:14;56
+msgid "Title"
+msgstr ""
+
+#: \views\groups\view.ctp:91
+#: \views\menus\view.ctp:19;57
+msgid "Url"
+msgstr ""
+
+#: \views\groups\view.ctp:92
+#: \views\menus\view.ctp:24;58
+msgid "Help"
+msgstr ""
+
+#: \views\groups\view.ctp:93
+#: \views\menus\view.ctp:29;59
+msgid "Urutan"
+msgstr ""
+
+#: \views\invoice_details\add.ctp:4
+msgid "Add Invoice Detail"
+msgstr ""
+
+#: \views\invoice_details\add.ctp:26
+#: \views\invoice_details\edit.ctp:27
+#: \views\invoice_details\view.ctp:51
+#: \views\invoices\add.ctp:26
+#: \views\invoices\add_from_po.ctp:26
+#: \views\invoices\edit.ctp:29
+#: \views\invoices\index.ctp:66
+#: \views\invoices\view.ctp:70
+msgid "List Invoice Details"
+msgstr ""
+
+#: \views\invoice_details\add.ctp:27
+#: \views\invoice_details\edit.ctp:28
+#: \views\invoice_details\index.ctp:62
+#: \views\invoice_details\view.ctp:53
+#: \views\invoices\add.ctp:19
+#: \views\invoices\add_from_po.ctp:19
+#: \views\invoices\edit.ctp:22
+#: \views\invoices\view.ctp:62
+msgid "List Invoices"
+msgstr ""
+
+#: \views\invoice_details\add.ctp:28
+#: \views\invoice_details\edit.ctp:29
+#: \views\invoice_details\index.ctp:63
+#: \views\invoice_details\view.ctp:54
+#: \views\invoices\index.ctp:59
+#: \views\invoices\view.ctp:63
+msgid "New Invoice"
+msgstr ""
+
+#: \views\invoice_details\edit.ctp:4
+#: \views\invoice_details\view.ctp:49
+msgid "Edit Invoice Detail"
+msgstr ""
+
+#: \views\invoice_details\index.ctp:2
+msgid "Invoice Details"
+msgstr ""
+
+#: \views\invoice_details\index.ctp:61
+#: \views\invoice_details\view.ctp:52
+#: \views\invoices\add.ctp:27
+#: \views\invoices\add_from_po.ctp:27
+#: \views\invoices\edit.ctp:30
+#: \views\invoices\index.ctp:67
+#: \views\invoices\view.ctp:71;132
+msgid "New Invoice Detail"
+msgstr ""
+
+#: \views\invoice_details\view.ctp:2
+msgid "Invoice Detail"
+msgstr ""
+
+#: \views\invoice_details\view.ctp:9
+#: \views\invoices\view.ctp:2
+msgid "Invoice"
+msgstr ""
+
+#: \views\invoice_details\view.ctp:50
+msgid "Delete Invoice Detail"
+msgstr ""
+
+#: \views\invoices\add.ctp:4
+msgid "Add Invoice"
+msgstr ""
+
+#: \views\invoices\add.ctp:22
+#: \views\invoices\add_from_po.ctp:22
+#: \views\invoices\edit.ctp:25
+#: \views\invoices\index.ctp:62
+#: \views\invoices\view.ctp:66
+#: \views\npb_suppliers\add.ctp:21
+#: \views\npb_suppliers\edit.ctp:21
+#: \views\npb_suppliers\index.ctp:56
+#: \views\npb_suppliers\view.ctp:40
+#: \views\pos\add.ctp:21
+#: \views\pos\add_from_npb.ctp:64
+#: \views\pos\edit.ctp:34
+#: \views\pos\index.ctp:64
+#: \views\pos\view.ctp:67
+#: \views\purchases\add.ctp:62
+#: \views\purchases\admin_add.ctp:41
+#: \views\purchases\admin_edit.ctp:42
+#: \views\purchases\admin_index.ctp:96
+#: \views\purchases\admin_view.ctp:119
+#: \views\purchases\edit.ctp:58
+#: \views\purchases\index.ctp:76
+#: \views\purchases\view.ctp:74
+#: \views\suppliers\add.ctp:26
+#: \views\suppliers\edit.ctp:28
+#: \views\suppliers\view.ctp:76
+msgid "List Suppliers"
+msgstr ""
+
+#: \views\invoices\add.ctp:23
+#: \views\invoices\add_from_po.ctp:23
+#: \views\invoices\edit.ctp:26
+#: \views\invoices\index.ctp:63
+#: \views\invoices\view.ctp:67
+#: \views\npb_suppliers\add.ctp:22
+#: \views\npb_suppliers\edit.ctp:22
+#: \views\npb_suppliers\index.ctp:57
+#: \views\npb_suppliers\view.ctp:41
+#: \views\pos\add.ctp:22
+#: \views\pos\add_from_npb.ctp:65
+#: \views\pos\edit.ctp:35
+#: \views\pos\index.ctp:65
+#: \views\pos\view.ctp:68
+#: \views\purchases\add.ctp:63
+#: \views\purchases\admin_add.ctp:42
+#: \views\purchases\admin_edit.ctp:43
+#: \views\purchases\admin_index.ctp:97
+#: \views\purchases\admin_view.ctp:120
+#: \views\purchases\edit.ctp:59
+#: \views\purchases\index.ctp:77
+#: \views\purchases\view.ctp:75
+#: \views\suppliers\index.ctp:60
+#: \views\suppliers\view.ctp:77
+msgid "New Supplier"
+msgstr ""
+
+#: \views\invoices\add_from_po.ctp:4
+msgid "Add Invoice From PO"
+msgstr ""
+
+#: \views\invoices\edit.ctp:4
+#: \views\invoices\view.ctp:60
+msgid "Edit Invoice"
+msgstr ""
+
+#: \views\invoices\index.ctp:2
+msgid "Invoices"
+msgstr ""
+
+#: \views\invoices\view.ctp:9
+msgid "Invdate"
+msgstr ""
+
+#: \views\invoices\view.ctp:14
+#: \views\npbs\view.ctp:19;180
+#: \views\pos\view.ctp:14
+#: \views\purchases\admin_view.ctp:29
+#: \views\purchases\view.ctp:41
+#: \views\suppliers\view.ctp:2
+msgid "Supplier"
+msgstr ""
+
+#: \views\invoices\view.ctp:24
+msgid "PO No"
+msgstr ""
+
+#: \views\invoices\view.ctp:34
+#: \views\npbs\view.ctp:29
+#: \views\pos\view.ctp:29;158
+msgid "Total (Rp)"
+msgstr ""
+
+#: \views\invoices\view.ctp:39
+msgid "Paid Date"
+msgstr ""
+
+#: \views\invoices\view.ctp:45
+#: \views\items\view.ctp:29
+#: \views\po_statuses\view.ctp:39
+#: \views\pos\view.ctp:39
+msgid "Created"
+msgstr ""
+
+#: \views\invoices\view.ctp:53
+msgid "Register to Assets"
+msgstr ""
+
+#: \views\invoices\view.ctp:61
+msgid "Delete Invoice"
+msgstr ""
+
+#: \views\invoices\view.ctp:75
+msgid "Invoice Item Details"
+msgstr ""
+
+#: \views\invoices\view.ctp:80
+msgid "Id Invoice"
+msgstr ""
+
+#: \views\invoices\view.ctp:87
+#: \views\npbs\view.ctp:80
+#: \views\pos\view.ctp:92
+msgid "Price (Rp)"
+msgstr ""
+
+#: \views\invoices\view.ctp:88
+#: \views\npbs\view.ctp:81
+#: \views\pos\view.ctp:94
+msgid "Amount (Rp)"
+msgstr ""
+
+#: \views\invoices\view.ctp:91
+#: \views\pos\view.ctp:93
+msgid "Amount Cur"
+msgstr ""
+
+#: \views\invoices\view.ctp:92
+#: \views\pos\view.ctp:95
+msgid "Ref. NPB"
+msgstr ""
+
+#: \views\invoices\view.ctp:93
+msgid "Ref. PO"
+msgstr ""
+
+#: \views\items\add.ctp:4
+msgid "Add Item"
+msgstr ""
+
+#: \views\items\add.ctp:19
+#: \views\items\edit.ctp:21
+#: \views\items\view.ctp:41
+#: \views\npb_details\add.ctp:26
+#: \views\npb_details\edit.ctp:28
+#: \views\npb_details\index.ctp:71
+#: \views\npb_details\view.ctp:65
+msgid "List Items"
+msgstr ""
+
+#: \views\items\add.ctp:22
+#: \views\items\edit.ctp:24
+#: \views\items\index.ctp:58
+#: \views\items\view.ctp:45
+#: \views\npb_details\add.ctp:23
+#: \views\npb_details\edit.ctp:25
+#: \views\npb_details\view.ctp:61
+#: \views\npbs\add.ctp:26
+#: \views\npbs\edit.ctp:27
+#: \views\npbs\index.ctp:66
+#: \views\npbs\view.ctp:62
+msgid "List Npb Details"
+msgstr ""
+
+#: \views\items\add.ctp:23
+#: \views\items\edit.ctp:25
+#: \views\items\index.ctp:59
+#: \views\items\view.ctp:46;97
+#: \views\npb_details\index.ctp:68
+#: \views\npb_details\view.ctp:62
+#: \views\npbs\add.ctp:27
+#: \views\npbs\edit.ctp:28
+#: \views\npbs\index.ctp:67
+#: \views\npbs\view.ctp:63;125
+msgid "New Npb Detail"
+msgstr ""
+
+#: \views\items\edit.ctp:4
+#: \views\items\view.ctp:39
+msgid "Edit Item"
+msgstr ""
+
+#: \views\items\index.ctp:2
+msgid "Items"
+msgstr ""
+
+#: \views\items\index.ctp:55
+#: \views\items\view.ctp:42
+#: \views\npb_details\add.ctp:27
+#: \views\npb_details\edit.ctp:29
+#: \views\npb_details\index.ctp:72
+#: \views\npb_details\view.ctp:66
+msgid "New Item"
+msgstr ""
+
+#: \views\items\view.ctp:2
+#: \views\npb_details\view.ctp:14
+msgid "Item"
+msgstr ""
+
+#: \views\items\view.ctp:40
+msgid "Delete Item"
+msgstr ""
+
+#: \views\items\view.ctp:50
+msgid "Related Npb Details"
+msgstr ""
+
+#: \views\items\view.ctp:55
+#: \views\npb_suppliers\view.ctp:9
+msgid "Id Npb"
+msgstr ""
+
+#: \views\items\view.ctp:56
+#: \views\npbs\view.ctp:75
+msgid "Id Item"
+msgstr ""
+
+#: \views\items\view.ctp:61
+#: \views\npb_details\view.ctp:39
+msgid "Amout Cur"
+msgstr ""
+
+#: \views\items\view.ctp:62
+#: \views\pos\view.ctp:89
+#: \views\warranties\view.ctp:186
+msgid "Id Currency"
+msgstr ""
+
+#: \views\menus\add.ctp:4
+msgid "Add Menu"
+msgstr ""
+
+#: \views\menus\add.ctp:22
+#: \views\menus\edit.ctp:24
+#: \views\menus\index.ctp:57
+#: \views\menus\view.ctp:44
+msgid "New Parent Menu"
+msgstr ""
+
+#: \views\menus\edit.ctp:4
+#: \views\menus\view.ctp:39
+msgid "Edit Menu"
+msgstr ""
+
+#: \views\menus\index.ctp:2
+msgid "Menus"
+msgstr ""
+
+#: \views\menus\view.ctp:2
+msgid "Menu"
+msgstr ""
+
+#: \views\menus\view.ctp:9
+msgid "Parent Menu"
+msgstr ""
+
+#: \views\menus\view.ctp:40
+msgid "Delete Menu"
+msgstr ""
+
+#: \views\menus\view.ctp:89
+msgid "New Child Menu"
+msgstr ""
+
+#: \views\menus\view.ctp:94
+msgid "Related Groups"
+msgstr ""
+
+#: \views\npb_details\add.ctp:4
+msgid "Add Npb Detail"
+msgstr ""
+
+#: \views\npb_details\add.ctp:24
+#: \views\npb_details\edit.ctp:26
+#: \views\npb_details\index.ctp:69
+#: \views\npb_details\view.ctp:63
+#: \views\npb_statuses\add.ctp:17
+#: \views\npb_statuses\edit.ctp:18
+#: \views\npb_statuses\index.ctp:46
+#: \views\npb_statuses\view.ctp:23
+#: \views\npb_suppliers\add.ctp:19
+#: \views\npb_suppliers\edit.ctp:19
+#: \views\npb_suppliers\index.ctp:54
+#: \views\npb_suppliers\view.ctp:38
+#: \views\npbs\add.ctp:23
+#: \views\npbs\edit.ctp:24
+#: \views\npbs\view.ctp:58
+msgid "List Npbs"
+msgstr ""
+
+#: \views\npb_details\add.ctp:25
+#: \views\npb_details\edit.ctp:27
+#: \views\npb_details\index.ctp:70
+#: \views\npb_details\view.ctp:64
+#: \views\npb_statuses\add.ctp:18
+#: \views\npb_statuses\edit.ctp:19
+#: \views\npb_statuses\index.ctp:47
+#: \views\npb_statuses\view.ctp:24;69
+#: \views\npb_suppliers\add.ctp:20
+#: \views\npb_suppliers\edit.ctp:20
+#: \views\npb_suppliers\index.ctp:55
+#: \views\npb_suppliers\view.ctp:39
+#: \views\npbs\index.ctp:63
+#: \views\npbs\view.ctp:59
+msgid "New Npb"
+msgstr ""
+
+#: \views\npb_details\edit.ctp:4
+#: \views\npb_details\view.ctp:59
+msgid "Edit Npb Detail"
+msgstr ""
+
+#: \views\npb_details\index.ctp:2
+msgid "Npb Details"
+msgstr ""
+
+#: \views\npb_details\view.ctp:2
+msgid "Npb Detail"
+msgstr ""
+
+#: \views\npb_details\view.ctp:9
+#: \views\npb_suppliers\view.ctp:14
+#: \views\npbs\view.ctp:2
+msgid "Npb"
+msgstr ""
+
+#: \views\npb_details\view.ctp:60
+msgid "Delete Npb Detail"
+msgstr ""
+
+#: \views\npb_statuses\add.ctp:4
+msgid "Add Npb Status"
+msgstr ""
+
+#: \views\npb_statuses\add.ctp:16
+#: \views\npb_statuses\edit.ctp:17
+#: \views\npb_statuses\view.ctp:21
+msgid "List Npb Statuses"
+msgstr ""
+
+#: \views\npb_statuses\edit.ctp:4
+#: \views\npb_statuses\view.ctp:19
+msgid "Edit Npb Status"
+msgstr ""
+
+#: \views\npb_statuses\index.ctp:2
+msgid "Npb Statuses"
+msgstr ""
+
+#: \views\npb_statuses\index.ctp:45
+#: \views\npb_statuses\view.ctp:22
+msgid "New Npb Status"
+msgstr ""
+
+#: \views\npb_statuses\view.ctp:2
+msgid "Npb Status"
+msgstr ""
+
+#: \views\npb_statuses\view.ctp:20
+msgid "Delete Npb Status"
+msgstr ""
+
+#: \views\npb_statuses\view.ctp:28
+msgid "Related Npbs"
+msgstr ""
+
+#: \views\npb_statuses\view.ctp:33
+#: \views\po_statuses\view.ctp:35
+#: \views\warranties\view.ctp:94
+msgid "Id Department"
+msgstr ""
+
+#: \views\npb_statuses\view.ctp:34
+#: \views\npbs\view.ctp:24
+msgid "Req Date"
+msgstr ""
+
+#: \views\npb_statuses\view.ctp:35
+msgid "Id Status"
+msgstr ""
+
+#: \views\npb_statuses\view.ctp:36
+#: \views\pos\view.ctp:160
+msgid "Notes"
+msgstr ""
+
+#: \views\npb_statuses\view.ctp:37
+#: \views\npbs\view.ctp:38
+#: \views\pos\view.ctp:161
+msgid "Created By"
+msgstr ""
+
+#: \views\npb_statuses\view.ctp:38
+msgid "Created Date"
+msgstr ""
+
+#: \views\npb_suppliers\add.ctp:4
+msgid "Add Npb Supplier"
+msgstr ""
+
+#: \views\npb_suppliers\add.ctp:18
+#: \views\npb_suppliers\edit.ctp:18
+#: \views\npb_suppliers\view.ctp:36
+#: \views\npbs\add.ctp:28
+#: \views\npbs\edit.ctp:29
+#: \views\npbs\index.ctp:68
+#: \views\npbs\view.ctp:64
+msgid "List Npb Suppliers"
+msgstr ""
+
+#: \views\npb_suppliers\edit.ctp:4
+#: \views\npb_suppliers\view.ctp:34
+msgid "Edit Npb Supplier"
+msgstr ""
+
+#: \views\npb_suppliers\index.ctp:2
+msgid "Npb Suppliers"
+msgstr ""
+
+#: \views\npb_suppliers\index.ctp:53
+#: \views\npb_suppliers\view.ctp:37
+#: \views\npbs\add.ctp:29
+#: \views\npbs\edit.ctp:30
+#: \views\npbs\index.ctp:69
+#: \views\npbs\view.ctp:65;167
+msgid "New Npb Supplier"
+msgstr ""
+
+#: \views\npb_suppliers\view.ctp:2
+msgid "Npb Supplier"
+msgstr ""
+
+#: \views\npb_suppliers\view.ctp:19
+#: \views\npbs\view.ctp:136
+msgid "Selected"
+msgstr ""
+
+#: \views\npb_suppliers\view.ctp:35
+msgid "Delete Npb Supplier"
+msgstr ""
+
+#: \views\npbs\add.ctp:4
+msgid "Add Npb"
+msgstr ""
+
+#: \views\npbs\edit.ctp:4
+#: \views\npbs\view.ctp:56
+msgid "Edit Npb"
+msgstr ""
+
+#: \views\npbs\index.ctp:2
+msgid "Npbs"
+msgstr ""
+
+#: \views\npbs\view.ctp:9;179
+#: \views\pos\view.ctp:4
+msgid "No"
+msgstr ""
+
+#: \views\npbs\view.ctp:33
+#: \views\pos\view.ctp:159
+msgid "Status"
+msgstr ""
+
+#: \views\npbs\view.ctp:47
+msgid "Notify Branch Head"
+msgstr ""
+
+#: \views\npbs\view.ctp:48
+msgid "Approval Branch Head"
+msgstr ""
+
+#: \views\npbs\view.ctp:57
+msgid "Delete Npb"
+msgstr ""
+
+#: \views\npbs\view.ctp:70
+msgid "NPB Item Details"
+msgstr ""
+
+#: \views\npbs\view.ctp:78
+msgid "Price (Cur)"
+msgstr ""
+
+#: \views\npbs\view.ctp:79
+msgid "Amount (Cur)"
+msgstr ""
+
+#: \views\npbs\view.ctp:130
+msgid "Suggested Suppliers"
+msgstr ""
+
+#: \views\npbs\view.ctp:135
+#: \views\po_statuses\view.ctp:34
+#: \views\warranties\view.ctp:95
+msgid "Id Supplier"
+msgstr ""
+
+#: \views\npbs\view.ctp:155
+msgid "Select"
+msgstr ""
+
+#: \views\npbs\view.ctp:174
+msgid "Related POs"
+msgstr ""
+
+#: \views\npbs\view.ctp:182
+msgid "Total"
+msgstr ""
+
+#: \views\po_details\add.ctp:4
+msgid "Add Po Detail"
+msgstr ""
+
+#: \views\po_details\add.ctp:27
+#: \views\po_details\edit.ctp:27
+#: \views\po_details\view.ctp:71
+#: \views\pos\add.ctp:25
+#: \views\pos\add_from_npb.ctp:68
+#: \views\pos\edit.ctp:38
+#: \views\pos\view.ctp:71
+msgid "List Po Details"
+msgstr ""
+
+#: \views\po_details\add.ctp:28
+#: \views\po_details\edit.ctp:28
+#: \views\po_details\index.ctp:72
+#: \views\po_details\view.ctp:73
+#: \views\po_statuses\add.ctp:17
+#: \views\po_statuses\edit.ctp:18
+#: \views\po_statuses\index.ctp:46
+#: \views\po_statuses\view.ctp:23
+#: \views\pos\add.ctp:20
+#: \views\pos\add_from_npb.ctp:63
+#: \views\pos\edit.ctp:33
+#: \views\pos\view.ctp:65
+msgid "List Pos"
+msgstr ""
+
+#: \views\po_details\add.ctp:29
+#: \views\po_details\edit.ctp:29
+#: \views\po_details\index.ctp:73
+#: \views\po_details\view.ctp:74
+#: \views\po_statuses\add.ctp:18
+#: \views\po_statuses\edit.ctp:19
+#: \views\po_statuses\index.ctp:47
+#: \views\po_statuses\view.ctp:24;71
+#: \views\pos\view.ctp:66
+msgid "New Po"
+msgstr ""
+
+#: \views\po_details\edit.ctp:4
+#: \views\po_details\view.ctp:69
+msgid "Edit Po Detail"
+msgstr ""
+
+#: \views\po_details\index.ctp:2
+msgid "Po Details"
+msgstr ""
+
+#: \views\po_details\index.ctp:71
+#: \views\po_details\view.ctp:72
+#: \views\pos\add.ctp:26
+#: \views\pos\add_from_npb.ctp:69
+#: \views\pos\edit.ctp:39
+#: \views\pos\view.ctp:72
+msgid "New Po Detail"
+msgstr ""
+
+#: \views\po_details\view.ctp:2
+msgid "Po Detail"
+msgstr ""
+
+#: \views\po_details\view.ctp:9
+#: \views\pos\view.ctp:2
+msgid "Po"
+msgstr ""
+
+#: \views\po_details\view.ctp:70
+msgid "Delete Po Detail"
+msgstr ""
+
+#: \views\po_statuses\add.ctp:4
+msgid "Add Po Status"
+msgstr ""
+
+#: \views\po_statuses\add.ctp:16
+#: \views\po_statuses\edit.ctp:17
+#: \views\po_statuses\view.ctp:21
+msgid "List Po Statuses"
+msgstr ""
+
+#: \views\po_statuses\edit.ctp:4
+#: \views\po_statuses\view.ctp:19
+msgid "Edit Po Status"
+msgstr ""
+
+#: \views\po_statuses\index.ctp:2
+msgid "Po Statuses"
+msgstr ""
+
+#: \views\po_statuses\index.ctp:45
+#: \views\po_statuses\view.ctp:22
+msgid "New Po Status"
+msgstr ""
+
+#: \views\po_statuses\view.ctp:2
+#: \views\pos\view.ctp:24
+msgid "Po Status"
+msgstr ""
+
+#: \views\po_statuses\view.ctp:20
+msgid "Delete Po Status"
+msgstr ""
+
+#: \views\po_statuses\view.ctp:28
+msgid "Related Pos"
+msgstr ""
+
+#: \views\po_statuses\view.ctp:33
+#: \views\pos\view.ctp:9
+msgid "Po Date"
+msgstr ""
+
+#: \views\po_statuses\view.ctp:36
+msgid "Po Status Id"
+msgstr ""
+
+#: \views\po_statuses\view.ctp:38
+msgid "Convert Invoice"
+msgstr ""
+
+#: \views\pos\add.ctp:4
+msgid "Add Po"
+msgstr ""
+
+#: \views\pos\add_from_npb.ctp:4
+msgid "Add PO From NPB"
+msgstr ""
+
+#: \views\pos\add_from_npb.ctp:18
+msgid "id"
+msgstr ""
+
+#: \views\pos\add_from_npb.ctp:19
+msgid "id_department"
+msgstr ""
+
+#: \views\pos\add_from_npb.ctp:20
+msgid "req_date"
+msgstr ""
+
+#: \views\pos\add_from_npb.ctp:21
+msgid "id_status"
+msgstr ""
+
+#: \views\pos\add_from_npb.ctp:22
+msgid "total"
+msgstr ""
+
+#: \views\pos\add_from_npb.ctp:23
+msgid "total_cur"
+msgstr ""
+
+#: \views\pos\add_from_npb.ctp:24
+msgid "created_by"
+msgstr ""
+
+#: \views\pos\edit.ctp:4
+#: \views\pos\view.ctp:63
+msgid "Edit Po"
+msgstr ""
+
+#: \views\pos\index.ctp:2
+msgid "POs"
+msgstr ""
+
+#: \views\pos\index.ctp:63
+msgid "New PO"
+msgstr ""
+
+#: \views\pos\index.ctp:68
+msgid "List PO Details"
+msgstr ""
+
+#: \views\pos\index.ctp:69
+msgid "New PO Detail"
+msgstr ""
+
+#: \views\pos\view.ctp:50
+msgid "Print PO"
+msgstr ""
+
+#: \views\pos\view.ctp:54
+msgid "Create Invoice"
+msgstr ""
+
+#: \views\pos\view.ctp:64
+msgid "Delete Po"
+msgstr ""
+
+#: \views\pos\view.ctp:77
+msgid "PO Item Details"
+msgstr ""
+
+#: \views\pos\view.ctp:82
+msgid "No Po"
+msgstr ""
+
+#: \views\pos\view.ctp:141
+msgid "New PO Item Detail"
+msgstr ""
+
+#: \views\pos\view.ctp:147
+msgid "Related NPB"
+msgstr ""
+
+#: \views\pos\view.ctp:155
+msgid "No NPB"
+msgstr ""
+
+#: \views\pos\view.ctp:157
+msgid "Req. Date"
+msgstr ""
+
+#: \views\purchases\add.ctp:8
+msgid "Add Purchase"
+msgstr ""
+
+#: \views\purchases\add.ctp:56
+#: \views\purchases\admin_add.ctp:35
+#: \views\purchases\admin_edit.ctp:36
+#: \views\purchases\admin_index.ctp:90
+#: \views\purchases\admin_view.ctp:113
+#: \views\purchases\edit.ctp:52
+#: \views\purchases\index.ctp:70
+#: \views\purchases\view.ctp:68
+#: \views\warranties\add.ctp:26
+#: \views\warranties\edit.ctp:28
+#: \views\warranties\view.ctp:76
+msgid "List Warranties"
+msgstr ""
+
+#: \views\purchases\add.ctp:57
+#: \views\purchases\admin_add.ctp:36
+#: \views\purchases\admin_edit.ctp:37
+#: \views\purchases\admin_index.ctp:91
+#: \views\purchases\admin_view.ctp:114
+#: \views\purchases\edit.ctp:53
+#: \views\purchases\index.ctp:71
+#: \views\purchases\view.ctp:69
+#: \views\warranties\index.ctp:51
+#: \views\warranties\view.ctp:77
+msgid "New Warranty"
+msgstr ""
+
+#: \views\purchases\add.ctp:58
+#: \views\purchases\admin_add.ctp:37
+#: \views\purchases\admin_edit.ctp:38
+#: \views\purchases\admin_index.ctp:92
+#: \views\purchases\admin_view.ctp:115
+#: \views\purchases\edit.ctp:54
+#: \views\purchases\index.ctp:72
+#: \views\purchases\view.ctp:70
+msgid "List Requesters"
+msgstr ""
+
+#: \views\purchases\add.ctp:59
+#: \views\purchases\admin_add.ctp:38
+#: \views\purchases\admin_edit.ctp:39
+#: \views\purchases\admin_index.ctp:93
+#: \views\purchases\admin_view.ctp:116
+#: \views\purchases\edit.ctp:55
+#: \views\purchases\index.ctp:73
+#: \views\purchases\view.ctp:71
+msgid "New Requester"
+msgstr ""
+
+#: \views\purchases\admin_add.ctp:4
+msgid "Admin Add Purchase"
+msgstr ""
+
+#: \views\purchases\admin_edit.ctp:4
+msgid "Admin Edit Purchase"
+msgstr ""
+
+#: \views\purchases\admin_index.ctp:2
+#: \views\purchases\index.ctp:2
+msgid "Purchases"
+msgstr ""
+
+#: \views\purchases\admin_view.ctp:2
+#: \views\purchases\view.ctp:2
+msgid "Purchase"
+msgstr ""
+
+#: \views\purchases\admin_view.ctp:14
+#: \views\purchases\view.ctp:47
+#: \views\warranties\view.ctp:2
+msgid "Warranty"
+msgstr ""
+
+#: \views\purchases\admin_view.ctp:19
+#: \views\purchases\view.ctp:35
+msgid "Requester"
+msgstr ""
+
+#: \views\purchases\admin_view.ctp:34
+#: \views\purchases\view.ctp:19
+#: \views\warranties\view.ctp:96
+msgid "Invoice No"
+msgstr ""
+
+#: \views\purchases\admin_view.ctp:39
+#: \views\purchases\view.ctp:25
+#: \views\warranties\view.ctp:97
+msgid "Po No"
+msgstr ""
+
+#: \views\purchases\admin_view.ctp:44
+#: \views\warranties\view.ctp:98
+msgid "Periode"
+msgstr ""
+
+#: \views\purchases\admin_view.ctp:64
+#: \views\warranties\view.ctp:102
+msgid "Doc Rup"
+msgstr ""
+
+#: \views\purchases\admin_view.ctp:69
+#: \views\warranties\view.ctp:103
+msgid "Sup Tanggal"
+msgstr ""
+
+#: \views\purchases\admin_view.ctp:74
+#: \views\warranties\view.ctp:104
+msgid "Sup Vendor No"
+msgstr ""
+
+#: \views\purchases\admin_view.ctp:79
+#: \views\warranties\view.ctp:105
+msgid "Warranty Card"
+msgstr ""
+
+#: \views\purchases\admin_view.ctp:94
+#: \views\warranties\view.ctp:108
+msgid "Warranty Date"
+msgstr ""
+
+#: \views\purchases\admin_view.ctp:109
+#: \views\purchases\edit.ctp:8
+#: \views\purchases\view.ctp:64
+msgid "Edit Purchase"
+msgstr ""
+
+#: \views\purchases\admin_view.ctp:110
+#: \views\purchases\view.ctp:65
+msgid "Delete Purchase"
+msgstr ""
+
+#: \views\purchases\view.ctp:53
+msgid "Doc Total (Rp)"
+msgstr ""
+
+#: \views\purchases\view.ctp:94
+msgid "Price<br>(Rp)"
+msgstr ""
+
+#: \views\purchases\view.ctp:95
+msgid "Amount<br>(Rp)"
+msgstr ""
+
+#: \views\purchases\view.ctp:96
+msgid "Cur"
+msgstr ""
+
+#: \views\purchases\view.ctp:97
+msgid "Price<br>(Cur)"
+msgstr ""
+
+#: \views\purchases\view.ctp:98
+msgid "Amount<br>(Cur)"
+msgstr ""
+
+#: \views\purchases\view.ctp:99
+msgid "Economic Age<br>(Month)"
+msgstr ""
+
+#: \views\purchases\view.ctp:100
+msgid "Monthly<br>Depreciation"
+msgstr ""
+
+#: \views\suppliers\add.ctp:4
+msgid "Add Supplier"
+msgstr ""
+
+#: \views\suppliers\edit.ctp:4
+#: \views\suppliers\view.ctp:74
+msgid "Edit Supplier"
+msgstr ""
+
+#: \views\suppliers\index.ctp:2
+msgid "Suppliers"
+msgstr ""
+
+#: \views\suppliers\view.ctp:14
+#: \views\warranties\view.ctp:14
+msgid "Address"
+msgstr ""
+
+#: \views\suppliers\view.ctp:19
+#: \views\warranties\view.ctp:19
+msgid "City"
+msgstr ""
+
+#: \views\suppliers\view.ctp:24
+#: \views\warranties\view.ctp:24
+msgid "Telephone"
+msgstr ""
+
+#: \views\suppliers\view.ctp:34
+#: \views\warranties\view.ctp:34
+msgid "Fax"
+msgstr ""
+
+#: \views\suppliers\view.ctp:39
+#: \views\warranties\view.ctp:39
+msgid "Hp"
+msgstr ""
+
+#: \views\suppliers\view.ctp:44
+#: \views\warranties\view.ctp:44
+msgid "Business Type"
+msgstr ""
+
+#: \views\suppliers\view.ctp:49
+#: \views\warranties\view.ctp:49
+msgid "Contact Person"
+msgstr ""
+
+#: \views\suppliers\view.ctp:54
+#: \views\warranties\view.ctp:54
+msgid "Province"
+msgstr ""
+
+#: \views\suppliers\view.ctp:59
+#: \views\warranties\view.ctp:59
+msgid "Website"
+msgstr ""
+
+#: \views\suppliers\view.ctp:75
+msgid "Delete Supplier"
+msgstr ""
+
+#: \views\users\add.ctp:4
+msgid "Add User"
+msgstr ""
+
+#: \views\users\edit.ctp:4
+#: \views\users\view.ctp:39
+msgid "Edit User"
+msgstr ""
+
+#: \views\users\index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: \views\users\index.ctp:30
+msgid "Set Password"
+msgstr ""
+
+#: \views\users\set_password.ctp:4
+msgid "Change User Password"
+msgstr ""
+
+#: \views\users\set_password.ctp:11
+msgid "Change"
+msgstr ""
+
+#: \views\users\view.ctp:2
+msgid "User"
+msgstr ""
+
+#: \views\users\view.ctp:29
+msgid "Department Id"
+msgstr ""
+
+#: \views\users\view.ctp:40
+msgid "Delete User"
+msgstr ""
+
+#: \views\warranties\add.ctp:4
+msgid "Add Warranty"
+msgstr ""
+
+#: \views\warranties\add.ctp:28
+#: \views\warranties\edit.ctp:30
+#: \views\warranties\index.ctp:53
+#: \views\warranties\view.ctp:79;154
+msgid "New Purchases"
+msgstr ""
+
+#: \views\warranties\add.ctp:30
+#: \views\warranties\edit.ctp:32
+#: \views\warranties\index.ctp:55
+#: \views\warranties\view.ctp:81;252
+msgid "New Assets"
+msgstr ""
+
+#: \views\warranties\edit.ctp:4
+#: \views\warranties\view.ctp:74
+msgid "Edit Warranty"
+msgstr ""
+
+#: \views\warranties\index.ctp:2
+msgid "Warranties"
+msgstr ""
+
+#: \views\warranties\view.ctp:75
+msgid "Delete Warranty"
+msgstr ""
+
+#: \views\warranties\view.ctp:85
+msgid "Related Purchases"
+msgstr ""
+
+#: \views\warranties\view.ctp:90
+msgid "Doc No"
+msgstr ""
+
+#: \views\warranties\view.ctp:93
+msgid "Id Requester"
+msgstr ""
+
+#: \webroot\test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: \controllers\components\bauth.php:154
+msgid "Invalid username or password"
+msgstr ""
+

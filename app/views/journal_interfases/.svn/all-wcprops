@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/famsys/!svn/ver/2029/app/views/journal_interfases
+END
+view.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/famsys/!svn/ver/2029/app/views/journal_interfases/view.ctp
+END
+edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/famsys/!svn/ver/2029/app/views/journal_interfases/edit.ctp
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/famsys/!svn/ver/2029/app/views/journal_interfases/index.ctp
+END
+add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/famsys/!svn/ver/2029/app/views/journal_interfases/add.ctp
+END

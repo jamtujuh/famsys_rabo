@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/famsys/!svn/ver/1992/app/views/reklasses
+END
+view.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/famsys/!svn/ver/2000/app/views/reklasses/view.ctp
+END
+index_xls.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/famsys/!svn/ver/2023/app/views/reklasses/index_xls.ctp
+END
+index_pdf.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/famsys/!svn/ver/1999/app/views/reklasses/index_pdf.ctp
+END
+edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/famsys/!svn/ver/1999/app/views/reklasses/edit.ctp
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/famsys/!svn/ver/1999/app/views/reklasses/index.ctp
+END
+add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/famsys/!svn/ver/2000/app/views/reklasses/add.ctp
+END

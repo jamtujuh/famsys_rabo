@@ -1,0 +1,9 @@
+
+
+Welcome to CakePHP v1.3.6 Console
+---------------------------------------------------------------
+App : app
+Path: D:\workspace\xampp\htdocs\famsys\app
+---------------------------------------------------------------
+Not called.
+

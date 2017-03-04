@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/famsys/!svn/ver/1992/app/views/reklas_statuses
+END
+view.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/famsys/!svn/ver/1992/app/views/reklas_statuses/view.ctp
+END
+edit.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/famsys/!svn/ver/1992/app/views/reklas_statuses/edit.ctp
+END
+index.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/famsys/!svn/ver/1992/app/views/reklas_statuses/index.ctp
+END
+add.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/famsys/!svn/ver/1992/app/views/reklas_statuses/add.ctp
+END

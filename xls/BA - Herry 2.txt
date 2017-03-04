@@ -1,0 +1,85 @@
+OK: Parameter jam input
+	- belum ada parameter jam input
+	- belum bisa dicoba jika penginputan diluar jam yang telah ditentukan
+	
+	Sudah ditambahkan, untuk men-set parameter jam nya masuk sebagai Admin, set Configs parameter
+
+MEMO REQUEST (MR)
+OK 1. MR dibuat tgl 12/7/2011 dan disetujui pada tgl 13/7/2011, saat MR dicetak maka tanggal pada MR tersebut adlh tgl  
+   saat MR tsb dibuat, seharusnya tgl yg tercetak pada MR adalah tgl persetujuan yaitu tgl 13/7/2011
+   
+   Mohon info ini persetujuan oleh siapa? pimcab atau gs/it admin ?
+   sudah ok , tanggal MR diupdate ketika MR disetujui oleh GS Supervisor untuk diproses ke GS Admin atau FA Management
+
+OK 2. sesuai hasil meeting tgl 23/6/2011 (point 2)
+   pada saat MR sudah masuk ke GS Admin pilihan hanya ada 2 yaitu movement & procurement, 
+   seharusnya sesuai kesepakatan ada satu pilihan lagi yaitu Cancel
+   
+   Sudah ditambahkan, tombol Cancel membuat blank tombol Movement dan Procurement
+   
+
+DELIVERY ORDER (DO)
+OK Field untuk PO Filter belum berfungsi
+- Saat DO diapprove tidak ada notification ke operator procurement
+- Saat dilakukan pemeriksaan PO yang statusnya sdh "DONE" user masih 
+  dapat melakukan input NEW DO dgn PO yg sama (seharusnya hal ini sudah tidak boleh terjadi)
+
+PURCHASE ORDER (PO)
+- MR yang telah di reject masih dapat dijalankan untuk proses pembuatan PO (seharusnya MR yg telah 
+  di reject tidak dapat diproses pembuatan PO)
+  
+  Mohon info darimana MR tsb bisa dijalankan jadi PO.
+  Di View sudah tidak ada tombol Create PO.
+  Di Create PO tidak bisa dilihat MR detail yang sudah Reject.
+  
+  
+OK PO dgn pembayaran Termin : pada saat PO dicetak tidak ada keterangan secara detail bahwa PO tsb dibayarkan 3 termin
+	Pada saat pencetakan PO, sudah ada Informasi Termin pembayaran di atas baris Terbilang
+	
+OK PO disertai down payment : pembuatan PO yang dilengkapi dengan input pembyr DP pada saat PO dicetak 
+  informasi bahwa PO tsb hrs ada DPnya tidak ada/tidak tercetak
+	Akan ditambahkan
+	
+- MR yang statusnya movemen seharusnya tidak tampil di user procurement melainkan harus tampil di FA management
+
+	
+OK PO tdk dapat di cetak ulang/harusnya bisa di cetak ulang dengan diberi tanda khusus (status sdh send supplier)
+
+	
+OK Cancel/Reject PO : PO yang di Reject/Cancel tidak diketahui siapa yang melakukan cancel/reject 
+
+	Sudah ditampilkan
+	
+- Tampilan Print Out PO masih harus direvisi, karena ada informasi yang double-double
+
+	Mohon info bagian mana saja yang double/perlu dirapikan
+
+DELIVERY ORDER (DO)
+
+masih ada yang harus diperbaiki
+- Modul DO List (Belum Berfungsi)
+
+	Sudah 
+	
+- Pada saat dilihat pada DAFTAR DO  terdapat beberapa DO yang harus disetujui oleh "procurement supervisor" 
+	contoh : Daftar  DO yg harus disetujui  terdiri dari 
+	1. PT. Penta Print
+	2. PT. Borneo
+	3. PT. Borneo
+	Pada saat Procurement Supervisor memilih nomor 2 "PT. Borneo" namun informasi yang ditampilkan pada menu 
+	selanjutnya bukanlah nama PT Borneo tapi nama PT Penta Print keterangannya sbb
+	- Nama Supplier PT. Penta Print
+	- Perincian barang adalah barang-barang yang dipesan di PT. Borneo
+
+FIXAS
+Register Fixas
+- pada saat dilakukan pemeriksaan history di cabang cipinang  atas 1 buah kursi kerja maka informasi  yang ditampilkan adalah 
+1. related MR atas barang  dari beberapa cabang, seharusnya hanya menampilkan MR dari cabang cipinang atas permintaan barang tersebut
+2. related DO atas barang tersebut menyebutkan menyebutkan beberapa nomor DO, seharusnya nomor DO yang ditampilkan hanya nomor DO yang melekat atas barang itu saja
+
+Curency
+- Fixas yang dibeli dengan mata uang asing, pada saat dilakukan register fixas mata uang tersebut tetap/tidak berubah (mata uang tetap USD tapi sudah dikalikan dengan kurs)
+- Fixas yang statusnya sdh di register sebagai asset di cabang, namun pada saat dilakukan pencetakan laporan fixas di cabang tersebut data tidak ada
+
+INVENTORY (Stock Management)
+- Tidak ada notification Cancel/Reject dari supervisor 

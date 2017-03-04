@@ -1,0 +1,97 @@
+- Untuk kebenaran laporan perhitungan depresiasi,pajak, 
+  revaluasi dll yang terkait dengan system perhitungan di accounting harus dipastikan/diperiksa oleh Fincon
+  (kapan akan dijadwalkan ? sebaiknya UAT dulu baru dicek krn pasti membutuhkan waktu yg lama)
+    
+- gsadmin -> gs supervisor sebagai approval ke movement atau procurment
+  
+  gsadmin     -> [gssuper]        -> gs / famanagement
+  app by head -> [sent to super]  -> processing
+  
+- fincon -> fincon supervisor pada saat fincon add invoices ada tahapan approval ke supervisor nya
+
+  gs     -> fincon            -> [finconsuper]    -> fincon
+  new    -> [sent to fincon]  -> [sent to super]  -> unpaid   ->   paid/payment...
+  
+- dan saat GS procurment PO terbuat gs bisa edit brand, type ,color
+
+- template journal saat journal payment
+
+
+ 
+MODUL MEMO REQUEST
+OK Field Notes :
+OK Field notes yang telah diisi oleh cabang tidak terlihat pada saat diproses oleh GS-Admin atau IT-Admin.
+OK GS Admin & IT Admin di Head Office :
+OK pada saat MR diproses harus ada pilihan MOVEMENT, PROCUREMENT, CANCEL (saat ini hanya ada 2 pilihan Movement/Procurement)
+OK IT Admin :
+OK Harus ada proteksi (MR cabang tidak boleh langsung ke {rocurement seblum ada persetujuan dari Supervisor di IT)
+
+MODUL "CREATE PO"
+OK Pembayaran termin
+OK tidak terlihat pada saat PO di cetak
+OK tidak menghitung secara otomatis
+OK keterangan peritem barang tidak ada (contoh : nama barang : mobil avanza warna hitam)
+OK rejck PO belum berfungsi
+OK 29/06 Ledger (pembelian FA): ledger yang terbentuk masih salah
+
+MODUL DELIVERY ORDER (DO)
+OK 29/06 saat penginputan DO tdk ada proses Approv dari supervisornya
+OK Waranti/Garansi : harusnya terisi secara otomatis nama tokonya atau dapat diisi manual (contoh : beli BB di Toko Amelia tapi garansinya dari TAM)
+OK Masa Garansi    : belum ada field masa garansi (contoh 2 thn atau 3 thn dari tgl pembelian)
+
+MODUL REGISTER FIXAS
+OK Field Code : diganti dengan keterangan nomor inventaris
+OK Field Serial Number : ada double dibagian atas dan bawah (cukup satu saja)
+OK Filed Cost Center : yang ditampilkan jangan nomornya saja tapi dilengkapi dgn nama keterangan
+OK Field Branch : yang ditampilkan jangan nomornya saja tapi dilengkapi dgn nama keterangan
+
+MODUL INPUT INVOICE
+OK Field Temin pembayaran : belum berfungsi
+OK Filed Rate : tidak recalculate
+
+MODUL MOVEMENT
+OK Fixas yg sudah dipindahkan ke cabang lain masih ada di cabang asal (sehingga barang tsb ada di 2 tempat)
+OK History atas suatu Fixas tidak terdata (contoh : Sebuah meja pernah dipindahkan ke beberapa cabang tapi tidak bisa dilihat historynya)
+OK Fixas yang dipindahkan Harus diterbitkan Berita Acara Mutasi
+OK transaksi penjualan/write off fixas : belum ada
+OK 29/06 Ledger yg terjadi saat movement tidak balance
+
+MODUL REPORTING
+Laporan yang belum ada:
+OK Surat Jalan/Berita Acara Movement Fixas
+OK 30/06 Laporan Penerimaan Barang (per periode tertentu)
+OK 30/06 Laporan penjualan fixas
+
+Laporan yang harus di perbaiki:
+OK Laporan MR Finish : tgl finishnya belum terisi
+OK Laporan PO outstanding : masih error
+OK Laporan fixas tidak ada nama cabangnya
+OK 01/07 Laporan pemesanan barang ke supplier (secara detail nama barangnya)
+OK 01/07 Laporan Pengeluaran/movement fixas ke cabang (tranfer report)
+
+Lain-lain
+- Akan segera dibuat batasan user berdasarkan levelnya (user level)
+- penentuan model untuk standart barkoding
+- penentuan model standart nomor inventaris
+- Dalam setiap proses transaksi harus melalui proses persetujuan  oleh "user Supervisor"
+- Saat ini masih ada beberapa transaksi tanpa melalui persetujuan dari supervisornya
+- User yang ada di Head Office terdiri
+
+User 1 terdiri dari
+Operator :
+1. GS_Admin
+2. IT_Admin
+3. GS digunakan oleh Procurement
+4. FA_Management
+5. Fincon
+
+Supervisor
+1. GS_Admin
+2. IT
+3. GS sebagai approv1
+4. GS sebagai Approv2
+5. Fincon sebagai Approv3 dan transaksi fixas
+
+Departemen/Unit Kerja di Head Office diberlakukan seperti cabang yang terdiri dari
+1. User Operator
+2. User Supervisor
